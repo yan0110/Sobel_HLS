@@ -29,72 +29,72 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/.apc/.src</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/.apc/.tb</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution1/.tcls</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>solution2/constraints</name>
 			<type>2</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution2/.tcls</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution2/.tcls</location>
 		</link>
 		<link>
 			<name>source/main.c</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/main.c</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/main.c</location>
 		</link>
 		<link>
 			<name>testbench/gray.txt</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/gray.txt</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/gray.txt</location>
 		</link>
 		<link>
 			<name>testbench/in.txt</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/in.txt</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/in.txt</location>
 		</link>
 		<link>
 			<name>testbench/test.c</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/test.c</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/test.c</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution1/solution1.directive</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution1/directives.tcl</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution1/script.tcl</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/script.tcl</location>
 		</link>
 		<link>
 			<name>solution2/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution2/solution2.directive</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution2/solution2.directive</location>
 		</link>
 		<link>
 			<name>solution2/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution2/directives.tcl</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution2/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution2/constraints/script.tcl</name>
 			<type>1</type>
-			<location>F:/0yan/fpga/HLS/edge_prj/solution2/script.tcl</location>
+			<location>F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution2/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

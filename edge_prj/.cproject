@@ -25,6 +25,7 @@
 								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.560015350" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.1368509673" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.594220781" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="F:/0yan/fpga/HLS/Sobel_HLS"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include/ap_sysc"/>
@@ -42,6 +43,7 @@
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.431721517" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.debug.option.debugging.level.803014603" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1786484450" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="F:/0yan/fpga/HLS/Sobel_HLS"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include/ap_sysc"/>
@@ -109,6 +111,7 @@
 								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.318329093" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.release.option.debugging.level.268278921" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.2143522078" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="F:/0yan/fpga/HLS/Sobel_HLS"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include/ap_sysc"/>
@@ -121,6 +124,7 @@
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.673952567" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.exe.release.option.debugging.level.891972809" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.2061966013" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="F:/0yan/fpga/HLS/Sobel_HLS"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/win64/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="E:/vivado174/Vivado/2017.4/include/ap_sysc"/>

@@ -1,4 +1,4 @@
-INFO: [HLS 200-0] Workspace F:/0yan/fpga/HLS/edge_prj/solution1 opened at Fri Dec 27 17:08:52 +0800 2019
+INFO: [HLS 200-0] Workspace F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1 opened at Fri Dec 27 22:02:23 +0800 2019
 Execute     config_clock -quiet -name default -period 10 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 Command     config_clock returned 0; 0 sec.
@@ -11,7 +11,7 @@ Execute     import_lib E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynqu
 Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx.lib 
 Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.lib 
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/plb46.lib 
-Command           ap_source returned 0; 0.001 sec.
+Command           ap_source returned 0; 0 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/fsl.lib 
 Command           ap_source returned 0; 0 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/axi4.lib 
@@ -31,7 +31,7 @@ Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/ip/xf
 Command         ap_source returned 0; 0 sec.
 Command       ap_source returned 0; 0.006 sec.
 Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_old.lib 
-Command       ap_source returned 0; 0.002 sec.
+Command       ap_source returned 0; 0.001 sec.
 Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_vivado.lib 
 Command       ap_source returned 0; 0.001 sec.
 Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
@@ -42,12 +42,12 @@ Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/int
 Command           ap_source returned 0; 0 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
 Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0 sec.
-Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
 Command         ap_source returned 0; 0.001 sec.
-Command       ap_source returned 0; 0.004 sec.
+Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
+Command         ap_source returned 0; 0.002 sec.
+Command       ap_source returned 0; 0.005 sec.
 Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/dsp48e2.hlp 
-Command       ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0 sec.
 Execute       get_default_platform 
 Command       get_default_platform returned 0; 0 sec.
 Execute       config_chip_info -quiet -resource  {SLICE 34260} {LUT 274080}   {FF 548160}  {DSP48E 2520}  {BRAM 1824} {URAM 0}  
@@ -61,8 +61,8 @@ Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/inter
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/maxi.hlp 
 Command           ap_source returned 0; 0 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
-Command           ap_source returned 0; 0 sec.
-Command         ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0.001 sec.
+Command         ap_source returned 0; 0.001 sec.
 Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
 Command         ap_source returned 0; 0.001 sec.
 Command       ap_source returned 0; 0.005 sec.
@@ -73,118 +73,118 @@ Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/commo
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/plb46.gen 
 Command           ap_source returned 0; 0.002 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/fsl.gen 
-Command           ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0.001 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/axi4.gen 
-Command           ap_source returned 0; 0.003 sec.
+Command           ap_source returned 0; 0.002 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/nativeAXI4.gen 
 Execute             source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/saxilite.gen 
 Command             ap_source returned 0; 0.005 sec.
 Execute             source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/maxi.gen 
-Command             ap_source returned 0; 0.009 sec.
+Command             ap_source returned 0; 0.008 sec.
 Command           ap_source returned 0; 0.014 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Command           ap_source returned 0; 0.014 sec.
+Command           ap_source returned 0; 0.011 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Command           ap_source returned 0; 0.008 sec.
+Command           ap_source returned 0; 0.009 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/ip/dds_compiler.gen 
-Command           ap_source returned 0; 0.003 sec.
+Command           ap_source returned 0; 0.004 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/ip/util.gen 
-Command           ap_source returned 0; 0.001 sec.
+Command           ap_source returned 0; 0 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source returned 0; 0.115 sec.
+Command           ap_source returned 0; 0.102 sec.
 Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/ip/xfir.gen 
 Command           ap_source returned 0; 0.001 sec.
-Command         ap_source returned 0; 0.162 sec.
+Command         ap_source returned 0; 0.146 sec.
 Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source returned 0; 0 sec.
-Command       ap_source returned 0; 0.165 sec.
-Command     ap_source returned 0; 0.165 sec.
+Command         ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0.149 sec.
+Command     ap_source returned 0; 0.149 sec.
+Execute     open_platform DefaultPlatform 
+Command     open_platform returned 0; 0 sec.
+Execute     import_lib E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/zynquplus_fpv7 
+Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_hp.lib 
+Command         ap_source returned 0; 0.001 sec.
+Command       ap_source returned 0; 0.005 sec.
+Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
+Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/target_info.tcl 
+Command           ap_source returned 0; 0.041 sec.
+Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/maxi.hlp 
+Command             ap_source returned 0; 0.001 sec.
+Execute             source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
+Command             ap_source returned 0; 0 sec.
+Command           ap_source returned 0; 0.001 sec.
+Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
+Command           ap_source returned 0; 0.001 sec.
+Command         ap_source returned 0; 0.044 sec.
+Command       ap_source returned 0; 0.046 sec.
+Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/zynquplus_hp.hlp 
+Command       ap_source returned 0; 0.002 sec.
+Command     import_lib returned 0; 0.064 sec.
+Execute     source E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
+Execute       source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
+Command       ap_source returned 0; 0.002 sec.
+Command     ap_source returned 0; 0.002 sec.
 Execute     set_part xczu7ev-ffvc1156-2-i 
 Execute       add_library xilinx/zynquplus/zynquplus:xczu7ev:-ffvc1156:-2-i 
 Execute         get_default_platform 
 Command         get_default_platform returned 0; 0 sec.
 Execute         license_isbetapart xczu7ev 
-Command         license_isbetapart returned 1; 0.048 sec.
+Command         license_isbetapart returned 1; 0.251 sec.
 Execute         get_default_platform 
 Command         get_default_platform returned 0; 0 sec.
 Execute         config_chip_info -quiet -resource  {SLICE 28800} {LUT 230400}   {FF 460800}  {DSP48E 1728}  {BRAM 624}  {URAM 96}  
 Command         config_chip_info returned 0; 0 sec.
 Execute         config_chip_info -quiet -speed medium 
 Command         config_chip_info returned 0; 0 sec.
-Command       add_library returned 0; 0.054 sec.
+Command       add_library returned 0; 0.256 sec.
 Execute       add_library xilinx/zynquplus/zynquplus_fpv7 
 Execute         get_default_platform 
 Command         get_default_platform returned 0; 0 sec.
-Execute         open_platform DefaultPlatform 
-Command         open_platform returned 0; 0 sec.
-Execute         import_lib E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/zynquplus_fpv7 
-Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv7.lib 
-Execute             source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_hp.lib 
-Command             ap_source returned 0; 0.002 sec.
-Command           ap_source returned 0; 0.007 sec.
-Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv.hlp 
-Execute             source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx.hlp 
-Execute               source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/target_info.tcl 
-Command               ap_source returned 0; 0.025 sec.
-Execute               source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/xilinx_interface.hlp 
-Execute                 source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/maxi.hlp 
-Command                 ap_source returned 0; 0 sec.
-Execute                 source E:/vivado174/Vivado/2017.4/common/technology/xilinx/interface/saxilite.hlp 
-Command                 ap_source returned 0; 0.001 sec.
-Command               ap_source returned 0; 0.001 sec.
-Execute               source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/dsp48.hlp 
-Command               ap_source returned 0; 0.001 sec.
-Command             ap_source returned 0; 0.029 sec.
-Command           ap_source returned 0; 0.029 sec.
-Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/zynquplus_hp.hlp 
-Command           ap_source returned 0; 0.002 sec.
-Command         import_lib returned 0; 0.051 sec.
-Execute         source E:/vivado174/Vivado/2017.4/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
-Execute           source E:/vivado174/Vivado/2017.4/common/technology/xilinx/common/xilinx_fpv6.gen 
-Command           ap_source returned 0; 0.002 sec.
-Command         ap_source returned 0; 0.002 sec.
-Command       add_library returned 0; 0.057 sec.
+Command       add_library returned 0; 0.002 sec.
 INFO: [HLS 200-10] Setting target device to 'xczu7ev-ffvc1156-2-i'
 Execute       get_default_platform 
 Command       get_default_platform returned 0; 0 sec.
-Command     set_part returned 0; 0.175 sec.
+Command     set_part returned 0; 0.318 sec.
 Execute     get_default_platform 
 Command     get_default_platform returned 0; 0 sec.
 Execute     config_chip_info -quiet -resource  {SLICE 28800} {LUT 230400}   {FF 460800}  {DSP48E 1728}  {BRAM 624}  {URAM 96}  
 Command     config_chip_info returned 0; 0 sec.
 Execute     config_chip_info -quiet -speed medium 
 Command     config_chip_info returned 0; 0 sec.
-Command   open_solution returned 0; 0.414 sec.
+Command   open_solution returned 0; 0.725 sec.
 Execute   csim_design -quiet 
-Execute     source F:/0yan/fpga/HLS/edge_prj/solution1/.autopilot/db/global.setting.tcl 
-Command     ap_source returned 0; 0 sec.
+Execute     source F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/.autopilot/db/global.setting.tcl 
+Command     ap_source returned 0; 0.017 sec.
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
 Execute     source csim/.lst_opt.tcl 
-Command     ap_source returned 0; 0 sec.
-Execute     is_encrypted F:/0yan/fpga/HLS/edge_prj/gray.txt 
-Command     is_encrypted returned 0; 0 sec.
-Execute     is_xip F:/0yan/fpga/HLS/edge_prj/gray.txt 
-Command     is_xip returned 0; 0 sec.
-Execute     is_encrypted F:/0yan/fpga/HLS/edge_prj/in.txt 
+Command     ap_source returned 0; 0.001 sec.
+Execute     is_encrypted F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/gray.txt 
 Command     is_encrypted returned 0; 0.001 sec.
-Execute     is_xip F:/0yan/fpga/HLS/edge_prj/in.txt 
+Execute     is_xip F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/gray.txt 
 Command     is_xip returned 0; 0 sec.
-Execute     is_encrypted F:/0yan/fpga/HLS/edge_prj/test.c 
+Execute     is_encrypted F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/in.txt 
 Command     is_encrypted returned 0; 0 sec.
-Execute     is_xip F:/0yan/fpga/HLS/edge_prj/test.c 
+Execute     is_xip F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/in.txt 
 Command     is_xip returned 0; 0 sec.
-Execute     is_encrypted F:/0yan/fpga/HLS/edge_prj/main.c 
+Execute     is_encrypted F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/test.c 
+Command     is_encrypted returned 0; 0.001 sec.
+Execute     is_xip F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/test.c 
+Command     is_xip returned 0; 0 sec.
+Execute     is_encrypted F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/main.c 
 Command     is_encrypted returned 0; 0 sec.
-Execute     is_xip F:/0yan/fpga/HLS/edge_prj/main.c 
-Command     is_xip returned 0; 0.001 sec.
+Execute     is_xip F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/main.c 
+Command     is_xip returned 0; 0 sec.
 Execute     get_default_platform 
 Command     get_default_platform returned 0; 0 sec.
 Execute     source run_sim.tcl 
-Command     ap_source returned 0; 0.596 sec.
+Command     ap_source returned 0; 0.79 sec.
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-Command   csim_design returned 0; 16.106 sec.
-Command ap_source returned 0; 16.526 sec.
+Command   csim_design returned 0; 20.408 sec.
+Command ap_source returned 0; 21.168 sec.
 Execute cleanup_all 
-Command cleanup_all returned 0; 0 sec.
+Command cleanup_all returned 0; 0.017 sec.

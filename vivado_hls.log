@@ -1,5 +1,13 @@
-INFO: [SIM 2] *************** CSIM start ***************
-INFO: [SIM 4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-10] Running 'E:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'yan' on host 'yan-pc' (Windows NT_amd64 version 6.1) on Fri Dec 27 22:02:23 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/0yan/fpga/HLS/Sobel_HLS'
+INFO: [HLS 200-10] Opening project 'F:/0yan/fpga/HLS/Sobel_HLS/edge_prj'.
+INFO: [HLS 200-10] Opening solution 'F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.125ns.
+INFO: [HLS 200-10] Setting target device to 'xczu7ev-ffvc1156-2-i'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
    Compiling(apcc) ../../../test.c in debug mode
 INFO: [HLS 200-10] Running 'e:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/apcc.exe'
 INFO: [HLS 200-10] For user 'yan' on host 'yan-pc' (Windows NT_amd64 version 6.1) on Fri Dec 27 22:02:28 +0800 2019
@@ -21,5 +29,5 @@ INFO: [HLS 200-10] In directory 'F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/c
 INFO: [APCC 202-3] Tmp directory is apcc_db
 INFO: [APCC 202-1] APCC is done.
    Generating csim.exe
-INFO: [SIM 1] CSim done with 0 errors.
-INFO: [SIM 3] *************** CSIM finish ***************
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
