@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTMG 210-274] Memory 'edge_det_sob_y' is read-only, switch it to a ROM." projectName="edge_prj" solutionName="solution1" date="2019-12-26T22:08:22.301+0800" type="Warning"/>
+        <logs message="WARNING: [RTMG 210-274] Memory 'edge_det_sob_x' is read-only, switch it to a ROM." projectName="edge_prj" solutionName="solution1" date="2019-12-26T22:08:22.281+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('block[1]', edge_prj/main.c:54) on array 'video' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'video'." projectName="edge_prj" solutionName="solution2" date="2019-12-26T09:44:50.476+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'convolution_label6' (edge_prj/main.c:77) because its parent loop or function is pipelined." projectName="edge_prj" solutionName="solution2" date="2019-12-26T09:44:36.408+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'convolution_label5' (edge_prj/main.c:76) because its parent loop or function is pipelined." projectName="edge_prj" solutionName="solution2" date="2019-12-26T09:44:36.400+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'edge_det_label4' (edge_prj/main.c:54) because its parent loop or function is pipelined." projectName="edge_prj" solutionName="solution2" date="2019-12-26T09:44:36.394+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'edge_det_label3' (edge_prj/main.c:52) because its parent loop or function is pipelined." projectName="edge_prj" solutionName="solution2" date="2019-12-26T09:44:36.389+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'edge_det_label2' (edge_prj/main.c:40) because its parent loop or function is pipelined." projectName="edge_prj" solutionName="solution2" date="2019-12-26T09:44:36.381+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

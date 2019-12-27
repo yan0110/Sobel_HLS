@@ -1,0 +1,13 @@
+In file included from E:/vivado174/Vivado/2017.4/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from E:/vivado174/Vivado/2017.4/include/hls_fpo.h:172,
+                 from E:/vivado174/Vivado/2017.4/include/hls_half.h:57,
+                 from E:/vivado174/Vivado/2017.4/include/ap_int.h:74,
+                 from apatb_edge_det.cpp:13:
+E:/vivado174/Vivado/2017.4/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+E:/vivado174/Vivado/2017.4/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+In file included from apatb_edge_det.cpp:18:0:
+E:/vivado174/Vivado/2017.4/include/ap_stream.h:70:2: warning: #warning AP_STREAM macros are deprecated. Please use hls::stream<> from "hls_stream.h" instead. [-Wcpp]
+obj/test.c_pre.c.tb.o: In function `main':
+F:\0yan\fpga\HLS\edge_prj\solution1\sim\wrapc/apcc_db/test.c_pre.c.tb.c:462: undefined reference to `edge'
+collect2: ld returned 1 exit status
+make: *** [cosim.tv.exe] Error 1

@@ -1,0 +1,30 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "E:/vivado174/Vivado/2017.4/msys/bin/g++.exe"
+   Compiling apatb_edge_det.cpp
+   Compiling (apcc) main.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'e:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'yan' on host 'yan-pc' (Windows NT_amd64 version 6.1) on Thu Dec 26 10:37:31 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/0yan/fpga/HLS/edge_prj/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) test.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'e:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'yan' on host 'yan-pc' (Windows NT_amd64 version 6.1) on Thu Dec 26 10:37:36 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/0yan/fpga/HLS/edge_prj/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+F:/0yan/fpga/HLS/edge_prj/test.c:6:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+1 warning generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
+ERROR: [COSIM-317] C++ compile error.
+ERROR: [COSIM-321] EXE file generate failed.
+ERROR: [COSIM-321] EXE file generate failed.
+ERROR: [COSIM-331] Aborting co-simulation: C simulation failed, compilation errors.
+ERROR: [COSIM-4] *** C/RTL co-simulation finished: FAIL ***

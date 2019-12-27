@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="main.c" path="F:\0yan\fpga\HLS\edge_prj\main.c"/>
+  </source>
+  <testbench>
+    <originFiles name="in.txt" path="F:\0yan\fpga\HLS\edge_prj\in.txt"/>
+    <originFiles name="test.c" path="F:\0yan\fpga\HLS\edge_prj\test.c"/>
+    <originFiles name="gray.txt" path="F:\0yan\fpga\HLS\edge_prj\gray.txt"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

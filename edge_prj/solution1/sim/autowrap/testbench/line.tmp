@@ -1,0 +1,97 @@
+#pragma line 1 "F:/0yan/fpga/HLS/edge_prj/main.c" ::: -10
+#pragma line 1 "<built-in>" ::: -9
+#pragma line 1 "<command-line>" ::: -8
+#pragma line 1 "F:/0yan/fpga/HLS/edge_prj/main.c" ::: -7
+#pragma line 1 "F:/0yan/fpga/HLS/edge_prj/sobel.h" 1 ::: -6
+#pragma line 2 "F:/0yan/fpga/HLS/edge_prj/main.c" 2 ::: 2
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/ap_cint.h" 1 ::: 3
+#pragma line 62 "E:/vivado174/Vivado/2017.4/include/ap_cint.h" ::: 4
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 1 3 ::: 5
+#pragma line 15 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 6
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h" 1 3 ::: 7
+#pragma line 32 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h" 3 ::: 8
+#pragma line 33 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h" 3 ::: 10
+#pragma line 16 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 2 3 ::: 11
+#pragma line 24 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 12
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 13
+#pragma line 212 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 14
+#pragma line 324 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 16
+#pragma line 25 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 2 3 ::: 18
+#pragma line 36 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 19
+#pragma line 90 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 66
+#pragma line 126 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 93
+#pragma line 152 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 111
+#pragma line 173 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/string.h" 3 ::: 125
+#pragma line 63 "E:/vivado174/Vivado/2017.4/include/ap_cint.h" 2 ::: 141
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 1 3 ::: 142
+#pragma line 26 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 143
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 144
+#pragma line 353 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 145
+#pragma line 27 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 147
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stdarg.h" 1 3 4 ::: 149
+#pragma line 40 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stdarg.h" 3 4 ::: 150
+#pragma line 29 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 152
+#pragma line 129 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 153
+#pragma line 154 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 165
+#pragma line 169 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 167
+#pragma line 204 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 193
+#pragma line 293 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 202
+#pragma line 308 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 209
+#pragma line 331 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 224
+#pragma line 412 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 292
+#pragma line 455 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 303
+#pragma line 480 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 318
+#pragma line 522 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 348
+#pragma line 534 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 353
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 1 3 ::: 354
+#pragma line 21 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 3 ::: 355
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 356
+#pragma line 150 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 3 4 ::: 357
+#pragma line 22 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 2 3 ::: 359
+#pragma line 45 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/sys/types.h" 3 ::: 371
+#pragma line 535 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 2 3 ::: 461
+#pragma line 563 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 482
+#pragma line 625 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdio.h" 3 ::: 537
+#pragma line 64 "E:/vivado174/Vivado/2017.4/include/ap_cint.h" 2 ::: 555
+#pragma line 77 "E:/vivado174/Vivado/2017.4/include/ap_cint.h" ::: 556
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_apint.h" 1 ::: 557
+#pragma line 57 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_apint.h" ::: 558
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" 1 ::: 559
+#pragma line 97 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" ::: 560
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.def" 1 ::: 561
+#pragma line 98 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" 2 ::: 1600
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt_ext.def" 1 ::: 1601
+#pragma line 99 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" 2 ::: 2628
+#pragma line 108 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" ::: 2629
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.def" 1 ::: 2630
+#pragma line 109 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" 2 ::: 3669
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt_ext.def" 1 ::: 3670
+#pragma line 110 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" 2 ::: 4697
+#pragma line 131 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_dt.h" ::: 4698
+#pragma line 58 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_apint.h" 2 ::: 4701
+#pragma line 1 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_ssdm_bits.h" 1 ::: 4702
+#pragma line 64 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_ssdm_bits.h" ::: 4703
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h" 1 3 ::: 4704
+#pragma line 38 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/assert.h" 3 ::: 4705
+#pragma line 65 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_ssdm_bits.h" 2 ::: 4707
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 1 3 ::: 4715
+#pragma line 21 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4716
+#pragma line 1 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/include/stddef.h" 1 3 4 ::: 4717
+#pragma line 22 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 2 3 ::: 4718
+#pragma line 71 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4719
+#pragma line 112 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4729
+#pragma line 137 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4731
+#pragma line 149 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4736
+#pragma line 172 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4739
+#pragma line 196 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4741
+#pragma line 209 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4743
+#pragma line 260 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4759
+#pragma line 293 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4763
+#pragma line 303 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4765
+#pragma line 385 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4839
+#pragma line 477 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4896
+#pragma line 497 "e:\\vivado174\\vivado\\2017.4\\msys\\bin\\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h" 3 ::: 4907
+#pragma line 73 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_ssdm_bits.h" 2 ::: 4936
+#pragma line 59 "E:/vivado174/Vivado/2017.4/include/etc/autopilot_apint.h" 2 ::: 4937
+#pragma line 78 "E:/vivado174/Vivado/2017.4/include/ap_cint.h" 2 ::: 4938
+#pragma line 3 "F:/0yan/fpga/HLS/edge_prj/main.c" 2 ::: 4939

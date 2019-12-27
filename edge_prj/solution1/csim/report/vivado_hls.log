@@ -1,0 +1,23 @@
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source E:/vivado174/Vivado/2017.4/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running 'E:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'yan' on host 'yan-pc' (Windows NT_amd64 version 6.1) on Thu Dec 26 14:29:21 +0800 2019
+INFO: [HLS 200-10] In directory 'F:/0yan/fpga/HLS/edge_prj/solution1/csim/report'
+F:纮yanpgaHLSedge_prjsolution1csimeportedge_det_csim.log can't be opened.
+couldn't read file "F:纮yanpgaHLSedge_prjsolution1csimeportedge_det_csim.log": no such file or directory
+    while executing
+"source {F:纮yanpgaHLSedge_prjsolution1csimeportedge_det_csim.log}"
+    invoked from within
+"hls::main F:\0yan\fpga\HLS\edge_prj\solution1\csim\report\edge_det_csim.log"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
+INFO: [Common 17-206] Exiting vivado_hls at Thu Dec 26 14:29:21 2019...

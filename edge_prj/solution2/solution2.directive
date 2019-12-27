@@ -1,0 +1,23 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="edge_det" label="edge_det_label1" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="edge_det" label="edge_det_label2" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="edge_det" label="edge_det_label3" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="edge_det" label="edge_det_label4" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="convolution" label="convolution_label5" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="convolution" label="convolution_label6" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+
