@@ -153,7 +153,7 @@ void edge_det(signed int *, signed int *, signed int *);
 
 
 /* Global Variable Definitions and Initialization */
-static  char aesl_internal__OC_str[33] = "F:\\0yan\\fpga\\HLS\\edge_prj\\in.txt";
+static  char aesl_internal__OC_str[35] = "F:\\0yan\\fpga\\HLS\\edge_prj\\gray.txt";
 static  char aesl_internal__OC_str1[2] = "r";
 static  char aesl_internal__OC_str2[4] = "%x,";
 static  char aesl_internal__OC_str3[16] = "sobel_x1out.txt";
@@ -353,10 +353,10 @@ const char* AESL_DEBUG_TRACE = getenv("DEBUG_TRACE");
 if (AESL_DEBUG_TRACE)
 printf("\n\{ BEGIN @main\n");
 if (AESL_DEBUG_TRACE)
-printf("\n  %%1 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([33 x i8]* @aesl_internal_.str, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str1, i64 0, i64 0)) nounwind, !dbg !3 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_4_count);
+printf("\n  %%1 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([35 x i8]* @aesl_internal_.str, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str1, i64 0, i64 0)) nounwind, !dbg !3 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_4_count);
   llvm_cbe_tmp__1 = (l_struct_OC__iobuf *)aesl_fopen(( char *)((&aesl_internal__OC_str[(((signed long long )0ull))
 #ifdef AESL_BC_SIM
- % 33
+ % 35
 #endif
 ])), ( char *)((&aesl_internal__OC_str1[(((signed long long )0ull))
 #ifdef AESL_BC_SIM

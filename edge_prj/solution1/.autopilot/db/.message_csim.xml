@@ -3,7 +3,12 @@
 	<Message prefix="[SIM 211-2]" severity="INFO" keynum="SIM_2_1569" content="*************** CSIM start ***************" tag=""/>
 	<Message prefix="[SIM 211-4]" severity="INFO" keynum="SIM_4_1577" content="CSIM will launch GCC as the compiler." tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1427" content="Running &apos;e:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/apcc.exe&apos;" tag=""/>
-	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1428" content="For user &apos;yan&apos; on host &apos;yan-pc&apos; (Windows NT_amd64 version 6.1) on Fri Dec 27 10:09:52 +0800 2019" tag=""/>
+	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1428" content="For user &apos;yan&apos; on host &apos;yan-pc&apos; (Windows NT_amd64 version 6.1) on Fri Dec 27 17:08:56 +0800 2019" tag=""/>
+	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1430" content="In directory &apos;F:/0yan/fpga/HLS/edge_prj/solution1/csim/build&apos;" tag=""/>
+	<Message prefix="[APCC 202-3]" severity="INFO" keynum="APCC_3_1610" content="Tmp directory is apcc_db" tag=""/>
+	<Message prefix="[APCC 202-1]" severity="INFO" keynum="APCC_1_1611" content="APCC is done." tag=""/>
+	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1427" content="Running &apos;e:/vivado174/Vivado/2017.4/bin/unwrapped/win64.o/apcc.exe&apos;" tag=""/>
+	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1428" content="For user &apos;yan&apos; on host &apos;yan-pc&apos; (Windows NT_amd64 version 6.1) on Fri Dec 27 17:09:02 +0800 2019" tag=""/>
 	<Message prefix="[HLS 200-10]" severity="INFO" keynum="HLS_10_1430" content="In directory &apos;F:/0yan/fpga/HLS/edge_prj/solution1/csim/build&apos;" tag=""/>
 	<Message prefix="[APCC 202-3]" severity="INFO" keynum="APCC_3_1610" content="Tmp directory is apcc_db" tag=""/>
 	<Message prefix="[APCC 202-1]" severity="INFO" keynum="APCC_1_1611" content="APCC is done." tag=""/>

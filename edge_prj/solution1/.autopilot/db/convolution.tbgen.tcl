@@ -65,14 +65,14 @@ set RtlHierarchyInfo {[
 
 set ArgLastReadFirstWriteLatency {
 	convolution {
-		operatr {Type I LastRead 1 FirstWrite -1}
-		block_r {Type I LastRead 1 FirstWrite -1}}}
+		operatr {Type I LastRead 2 FirstWrite -1}
+		block_r {Type I LastRead 2 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "7", "Max" : "7"}
-	, {"Name" : "Interval", "Min" : "7", "Max" : "7"}
+	{"Name" : "Latency", "Min" : "25", "Max" : "25"}
+	, {"Name" : "Interval", "Min" : "25", "Max" : "25"}
 ]}
 
 set PipelineEnableSignalInfo {[

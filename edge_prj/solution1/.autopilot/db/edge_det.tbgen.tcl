@@ -107,14 +107,14 @@ set ArgLastReadFirstWriteLatency {
 		sob_x {Type I LastRead -1 FirstWrite -1}
 		sob_y {Type I LastRead -1 FirstWrite -1}}
 	convolution {
-		operatr {Type I LastRead 1 FirstWrite -1}
-		block_r {Type I LastRead 1 FirstWrite -1}}}
+		operatr {Type I LastRead 2 FirstWrite -1}
+		block_r {Type I LastRead 2 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "20201", "Max" : "430201"}
-	, {"Name" : "Interval", "Min" : "20202", "Max" : "430202"}
+	{"Name" : "Latency", "Min" : "20201", "Max" : "790201"}
+	, {"Name" : "Interval", "Min" : "20202", "Max" : "790202"}
 ]}
 
 set PipelineEnableSignalInfo {[

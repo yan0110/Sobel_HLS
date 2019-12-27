@@ -4,30 +4,9 @@
 void edge_det(int video[N],int sob_x1[N],int sob_y1[N])   //sob_x1和sob_y1分别代表横向边缘检测和纵向边缘检测后的图像
 {
   //sobel滤波器模板
-   int sob_x[9];
+	int sob_x[9] = {-1,0,1,-2,0,2,-1,0,1};
+    int  sob_y[9] = {-1,-2,-1,0,0,0,1,2,1};
 
-       sob_x[0]=-1;
-	   sob_x[1]=0;
-	   sob_x[2]=1;
-	   sob_x[3]=-2;
-	   sob_x[4]=0;
-	   sob_x[5]=2;
-	   sob_x[6]=-1;
-	   sob_x[7]=0;
-	   sob_x[8]=1;
-
-
-	 int  sob_y[9];
-
-       sob_y[0]=-1;
-	   sob_y[1]=-2;
-	   sob_y[2]=1;
-	   sob_y[3]=0;
-	   sob_y[4]=0;
-	   sob_y[5]=0;
-	   sob_y[6]=1;
-	   sob_y[7]=2;
-	   sob_y[8]=1;
   int i,j,m,n;
   int block[9];
 
@@ -69,8 +48,6 @@ int convolution(int operatr[9],int block[9])
 	int i,j;
 convolution_label5:for(i=0;i<3;i++)
 convolution_label6:for(j=0;j<3;j++)
-          value =value+operatr[i*3+1]*block[i*3+1];
-
-
+          value =value+operatr[i*3+j]*block[i*3+j];
     return value;
 }

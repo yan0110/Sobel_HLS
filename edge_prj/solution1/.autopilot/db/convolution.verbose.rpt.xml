@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'convolution'" level="0">
-<item name = "Date">Thu Dec 26 22:08:21 2019
+<item name = "Date">Fri Dec 27 16:25:43 2019
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">edge_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 6.13, 0.13</column>
+<column name="ap_clk">10.00, 5.77, 0.13</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">7, 7, 7, 7, none</column>
+<column name="">25, 25, 25, 25, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,8 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- convolution_label5">6, 6, 2, -, -, 3, no</column>
+<column name="- convolution_label5">24, 24, 8, -, -, 3, no</column>
+<column name=" + convolution_label6">6, 6, 2, -, -, 3, no</column>
 </table>
 </item>
 </section>
@@ -48,12 +49,12 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, 3, 0, 135, -</column>
+<column name="Expression">-, 3, 0, 123, -</column>
 <column name="FIFO">-, -, -, -, -</column>
 <column name="Instance">-, -, -, -, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, -, 48, -</column>
-<column name="Register">-, -, 71, -, -</column>
+<column name="Multiplexer">-, -, -, 54, -</column>
+<column name="Register">-, -, 49, -, -</column>
 <specialColumn name="Available">624, 1728, 460800, 230400, 96</specialColumn>
 <specialColumn name="Utilization (%)">0, ~0, ~0, ~0, 0</specialColumn>
 </table>
@@ -78,30 +79,33 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="tmp_17_fu_137_p2">*, 3, 0, 20, 32, 32</column>
-<column name="i_2_fu_85_p2">+, 0, 0, 9, 2, 1</column>
-<column name="tmp_s_fu_109_p2">+, 0, 0, 10, 1, 5</column>
-<column name="value_2_fu_143_p2">+, 0, 0, 39, 32, 32</column>
-<column name="tmp_16_fu_131_p2">-, 0, 0, 39, 32, 32</column>
-<column name="tmp_fu_103_p2">-, 0, 0, 10, 5, 5</column>
-<column name="exitcond1_fu_79_p2">icmp, 0, 0, 8, 2, 2</column>
+<column name="tmp_15_fu_155_p2">*, 3, 0, 20, 32, 32</column>
+<column name="i_2_fu_100_p2">+, 0, 0, 9, 2, 1</column>
+<column name="j_2_fu_134_p2">+, 0, 0, 9, 2, 1</column>
+<column name="tmp_s_fu_140_p2">+, 0, 0, 15, 5, 5</column>
+<column name="value_2_fu_161_p2">+, 0, 0, 39, 32, 32</column>
+<column name="tmp_fu_118_p2">-, 0, 0, 15, 5, 5</column>
+<column name="exitcond1_fu_94_p2">icmp, 0, 0, 8, 2, 2</column>
+<column name="exitcond_fu_128_p2">icmp, 0, 0, 8, 2, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">21, 4, 1, 4</column>
-<column name="ap_return">9, 2, 32, 64</column>
-<column name="i_reg_64">9, 2, 2, 4</column>
-<column name="value_reg_52">9, 2, 32, 64</column>
+<column name="ap_NS_fsm">27, 5, 1, 5</column>
+<column name="i_reg_60">9, 2, 2, 4</column>
+<column name="j_reg_71">9, 2, 2, 4</column>
+<column name="value_fu_32">9, 2, 32, 64</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ap_CS_fsm">3, 0, 3, 0</column>
-<column name="ap_return_preg">32, 0, 32, 0</column>
-<column name="i_2_reg_152">2, 0, 2, 0</column>
-<column name="i_reg_64">2, 0, 2, 0</column>
-<column name="value_reg_52">32, 0, 32, 0</column>
+<column name="ap_CS_fsm">4, 0, 4, 0</column>
+<column name="i_2_reg_182">2, 0, 2, 0</column>
+<column name="i_reg_60">2, 0, 2, 0</column>
+<column name="j_2_reg_195">2, 0, 2, 0</column>
+<column name="j_reg_71">2, 0, 2, 0</column>
+<column name="tmp_reg_187">5, 0, 5, 0</column>
+<column name="value_fu_32">32, 0, 32, 0</column>
 </table>
 </item>
 </section>

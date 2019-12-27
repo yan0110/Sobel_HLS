@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'edge_det'" level="0">
-<item name = "Date">Thu Dec 26 22:08:21 2019
+<item name = "Date">Fri Dec 27 16:25:42 2019
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">edge_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 6.13, 0.13</column>
+<column name="ap_clk">10.00, 5.77, 0.13</column>
 </table>
 </item>
 </section>
@@ -24,20 +24,20 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">20201, 430201, 20201, 430201, none</column>
+<column name="">20201, 790201, 20201, 790201, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_convolution_fu_199">convolution, 7, 7, 7, 7, none</column>
+<column name="grp_convolution_fu_199">convolution, 25, 25, 25, 25, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- edge_det_label1">20200, 430200, 202 ~ 4302, -, -, 100, no</column>
-<column name=" + edge_det_label2">200, 4300, 2 ~ 43, -, -, 100, no</column>
+<column name="- edge_det_label1">20200, 790200, 202 ~ 7902, -, -, 100, no</column>
+<column name=" + edge_det_label2">200, 7900, 2 ~ 79, -, -, 100, no</column>
 <column name="  ++ edge_det_label3">24, 24, 8, -, -, 3, no</column>
 <column name="   +++ edge_det_label4">6, 6, 2, -, -, 3, no</column>
 </table>

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'edge_det'
 ================================================================
-* Date:           Thu Dec 26 22:08:21 2019
+* Date:           Fri Dec 27 16:25:43 2019
 
 * Version:        2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)
 * Project:        edge_prj
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |  10.00|      6.13|        0.13|
+    |ap_clk  |  10.00|      5.77|        0.13|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -29,7 +29,7 @@
     |     Latency    |    Interval    | Pipeline|
     |  min  |   max  |  min  |   max  |   Type  |
     +-------+--------+-------+--------+---------+
-    |  20201|  430201|  20201|  430201|   none  |
+    |  20201|  790201|  20201|  790201|   none  |
     +-------+--------+-------+--------+---------+
 
     + Detail: 
@@ -38,7 +38,7 @@
         |                        |             |  Latency  |  Interval | Pipeline|
         |        Instance        |    Module   | min | max | min | max |   Type  |
         +------------------------+-------------+-----+-----+-----+-----+---------+
-        |grp_convolution_fu_199  |convolution  |    7|    7|    7|    7|   none  |
+        |grp_convolution_fu_199  |convolution  |   25|   25|   25|   25|   none  |
         +------------------------+-------------+-----+-----+-----+-----+---------+
 
         * Loop: 
@@ -46,8 +46,8 @@
         |                        |     Latency    |  Iteration |  Initiation Interval  | Trip |          |
         |        Loop Name       |  min  |   max  |   Latency  |  achieved |   target  | Count| Pipelined|
         +------------------------+-------+--------+------------+-----------+-----------+------+----------+
-        |- edge_det_label1       |  20200|  430200| 202 ~ 4302 |          -|          -|   100|    no    |
-        | + edge_det_label2      |    200|    4300|   2 ~ 43   |          -|          -|   100|    no    |
+        |- edge_det_label1       |  20200|  790200| 202 ~ 7902 |          -|          -|   100|    no    |
+        | + edge_det_label2      |    200|    7900|   2 ~ 79   |          -|          -|   100|    no    |
         |  ++ edge_det_label3    |     24|      24|           8|          -|          -|     3|    no    |
         |   +++ edge_det_label4  |      6|       6|           2|          -|          -|     3|    no    |
         +------------------------+-------+--------+------------+-----------+-----------+------+----------+
@@ -64,12 +64,12 @@
 |DSP              |        -|      -|       -|       -|    -|
 |Expression       |        -|      0|       0|     264|    -|
 |FIFO             |        -|      -|       -|       -|    -|
-|Instance         |        -|      3|      71|     183|    -|
+|Instance         |        -|      3|      49|     177|    -|
 |Memory           |        0|      -|     192|      15|    -|
 |Multiplexer      |        -|      -|       -|     230|    -|
 |Register         |        -|      -|     151|       -|    -|
 +-----------------+---------+-------+--------+--------+-----+
-|Total            |        0|      3|     414|     692|    0|
+|Total            |        0|      3|     392|     686|    0|
 +-----------------+---------+-------+--------+--------+-----+
 |Available        |      624|   1728|  460800|  230400|   96|
 +-----------------+---------+-------+--------+--------+-----+
@@ -81,9 +81,9 @@
     +------------------------+-------------+---------+-------+----+-----+
     |        Instance        |    Module   | BRAM_18K| DSP48E| FF | LUT |
     +------------------------+-------------+---------+-------+----+-----+
-    |grp_convolution_fu_199  |convolution  |        0|      3|  71|  183|
+    |grp_convolution_fu_199  |convolution  |        0|      3|  49|  177|
     +------------------------+-------------+---------+-------+----+-----+
-    |Total                   |             |        0|      3|  71|  183|
+    |Total                   |             |        0|      3|  49|  177|
     +------------------------+-------------+---------+-------+----+-----+
 
     * DSP48: 
@@ -271,108 +271,108 @@ ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBits
 ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %sob_x1) nounwind, !map !19"
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %sob_y1) nounwind, !map !23"
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([9 x i8]* @edge_det_str) nounwind"
-ST_1 : Operation 14 [1/1] (0.67ns)   --->   "%block = alloca [9 x i32], align 16" [edge_prj/main.c:28]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_1 : Operation 15 [1/1] (0.65ns)   --->   "br label %1" [edge_prj/main.c:33]
+ST_1 : Operation 14 [1/1] (0.67ns)   --->   "%block = alloca [9 x i32], align 16" [edge_prj/main.c:11]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_1 : Operation 15 [1/1] (0.65ns)   --->   "br label %0" [edge_prj/main.c:16]
 
  <State 2> : 0.83ns
-ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%i = phi i7 [ 0, %0 ], [ %i_1, %12 ]"
-ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%phi_mul = phi i14 [ 0, %0 ], [ %next_mul, %12 ]"
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%i = phi i7 [ 0, %meminst4.preheader ], [ %i_1, %11 ]"
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%phi_mul = phi i14 [ 0, %meminst4.preheader ], [ %next_mul, %11 ]"
 ST_2 : Operation 18 [1/1] (0.83ns)   --->   "%next_mul = add i14 %phi_mul, 100"   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 19 [1/1] (0.81ns)   --->   "%exitcond3 = icmp eq i7 %i, -28" [edge_prj/main.c:33]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 19 [1/1] (0.81ns)   --->   "%exitcond3 = icmp eq i7 %i, -28" [edge_prj/main.c:16]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 100, i64 100, i64 100) nounwind"
-ST_2 : Operation 21 [1/1] (0.77ns)   --->   "%i_1 = add i7 %i, 1" [edge_prj/main.c:33]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 22 [1/1] (0.00ns)   --->   "br i1 %exitcond3, label %13, label %2" [edge_prj/main.c:33]
-ST_2 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str) nounwind" [edge_prj/main.c:34]
-ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([16 x i8]* @p_str) nounwind" [edge_prj/main.c:34]
-ST_2 : Operation 25 [1/1] (0.81ns)   --->   "%tmp = icmp ugt i7 %i, -31" [edge_prj/main.c:36]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 26 [1/1] (0.65ns)   --->   "br label %3" [edge_prj/main.c:34]
-ST_2 : Operation 27 [1/1] (0.00ns)   --->   "ret void" [edge_prj/main.c:52]
+ST_2 : Operation 21 [1/1] (0.77ns)   --->   "%i_1 = add i7 %i, 1" [edge_prj/main.c:16]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "br i1 %exitcond3, label %12, label %1" [edge_prj/main.c:16]
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str) nounwind" [edge_prj/main.c:18]
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([16 x i8]* @p_str) nounwind" [edge_prj/main.c:18]
+ST_2 : Operation 25 [1/1] (0.81ns)   --->   "%tmp = icmp ugt i7 %i, -31" [edge_prj/main.c:20]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (0.65ns)   --->   "br label %2" [edge_prj/main.c:18]
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "ret void" [edge_prj/main.c:42]
 
  <State 3> : 2.07ns
-ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%j = phi i7 [ 0, %2 ], [ %j_1, %11 ]"
-ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%j_cast7 = zext i7 %j to i14" [edge_prj/main.c:34]
-ST_3 : Operation 30 [1/1] (0.81ns)   --->   "%exitcond2 = icmp eq i7 %j, -28" [edge_prj/main.c:34]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%j = phi i7 [ 0, %1 ], [ %j_1, %10 ]"
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%j_cast7 = zext i7 %j to i14" [edge_prj/main.c:18]
+ST_3 : Operation 30 [1/1] (0.81ns)   --->   "%exitcond2 = icmp eq i7 %j, -28" [edge_prj/main.c:18]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%empty_5 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 100, i64 100, i64 100) nounwind"
-ST_3 : Operation 32 [1/1] (0.77ns)   --->   "%j_1 = add i7 %j, 1" [edge_prj/main.c:34]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 33 [1/1] (0.00ns)   --->   "br i1 %exitcond2, label %12, label %4" [edge_prj/main.c:34]
-ST_3 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str1) nounwind" [edge_prj/main.c:35]
-ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([16 x i8]* @p_str1) nounwind" [edge_prj/main.c:35]
-ST_3 : Operation 36 [1/1] (0.81ns)   --->   "%tmp_3 = icmp ugt i7 %j, -31" [edge_prj/main.c:36]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 37 [1/1] (0.42ns)   --->   "%or_cond = or i1 %tmp, %tmp_3" [edge_prj/main.c:36]   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.42> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 38 [1/1] (0.00ns)   --->   "br i1 %or_cond, label %5, label %.preheader.preheader" [edge_prj/main.c:36]
-ST_3 : Operation 39 [1/1] (0.65ns)   --->   "br label %.preheader" [edge_prj/main.c:43]
-ST_3 : Operation 40 [1/1] (0.83ns)   --->   "%tmp_4 = add i14 %phi_mul, %j_cast7" [edge_prj/main.c:38]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%tmp_5 = zext i14 %tmp_4 to i64" [edge_prj/main.c:38]
-ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%sob_x1_addr = getelementptr [10000 x i32]* %sob_x1, i64 0, i64 %tmp_5" [edge_prj/main.c:38]
-ST_3 : Operation 43 [1/1] (1.23ns)   --->   "store i32 0, i32* %sob_x1_addr, align 4" [edge_prj/main.c:38]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%sob_y1_addr = getelementptr [10000 x i32]* %sob_y1, i64 0, i64 %tmp_5" [edge_prj/main.c:39]
-ST_3 : Operation 45 [1/1] (1.23ns)   --->   "store i32 0, i32* %sob_y1_addr, align 4" [edge_prj/main.c:39]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br label %11" [edge_prj/main.c:40]
-ST_3 : Operation 47 [1/1] (0.00ns)   --->   "%empty_10 = call i32 (...)* @_ssdm_op_SpecRegionEnd([16 x i8]* @p_str, i32 %tmp_2) nounwind" [edge_prj/main.c:51]
-ST_3 : Operation 48 [1/1] (0.00ns)   --->   "br label %1" [edge_prj/main.c:33]
+ST_3 : Operation 32 [1/1] (0.77ns)   --->   "%j_1 = add i7 %j, 1" [edge_prj/main.c:18]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "br i1 %exitcond2, label %11, label %3" [edge_prj/main.c:18]
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str1) nounwind" [edge_prj/main.c:19]
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([16 x i8]* @p_str1) nounwind" [edge_prj/main.c:19]
+ST_3 : Operation 36 [1/1] (0.81ns)   --->   "%tmp_3 = icmp ugt i7 %j, -31" [edge_prj/main.c:20]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 37 [1/1] (0.42ns)   --->   "%or_cond = or i1 %tmp, %tmp_3" [edge_prj/main.c:20]   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.42> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "br i1 %or_cond, label %4, label %.preheader.preheader" [edge_prj/main.c:20]
+ST_3 : Operation 39 [1/1] (0.65ns)   --->   "br label %.preheader" [edge_prj/main.c:28]
+ST_3 : Operation 40 [1/1] (0.83ns)   --->   "%tmp_4 = add i14 %phi_mul, %j_cast7" [edge_prj/main.c:22]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%tmp_5 = zext i14 %tmp_4 to i64" [edge_prj/main.c:22]
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%sob_x1_addr = getelementptr [10000 x i32]* %sob_x1, i64 0, i64 %tmp_5" [edge_prj/main.c:22]
+ST_3 : Operation 43 [1/1] (1.23ns)   --->   "store i32 0, i32* %sob_x1_addr, align 4" [edge_prj/main.c:22]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%sob_y1_addr = getelementptr [10000 x i32]* %sob_y1, i64 0, i64 %tmp_5" [edge_prj/main.c:23]
+ST_3 : Operation 45 [1/1] (1.23ns)   --->   "store i32 0, i32* %sob_y1_addr, align 4" [edge_prj/main.c:23]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br label %10" [edge_prj/main.c:24]
+ST_3 : Operation 47 [1/1] (0.00ns)   --->   "%empty_10 = call i32 (...)* @_ssdm_op_SpecRegionEnd([16 x i8]* @p_str, i32 %tmp_2) nounwind" [edge_prj/main.c:40]
+ST_3 : Operation 48 [1/1] (0.00ns)   --->   "br label %0" [edge_prj/main.c:16]
 
  <State 4> : 2.42ns
-ST_4 : Operation 49 [1/1] (0.00ns)   --->   "%m = phi i2 [ %m_1, %9 ], [ 0, %.preheader.preheader ]"
-ST_4 : Operation 50 [1/1] (0.00ns)   --->   "%m_cast6 = zext i2 %m to i7" [edge_prj/main.c:43]
-ST_4 : Operation 51 [1/1] (0.00ns)   --->   "%m_cast5 = zext i2 %m to i5" [edge_prj/main.c:43]
-ST_4 : Operation 52 [1/1] (0.44ns)   --->   "%exitcond1 = icmp eq i2 %m, -1" [edge_prj/main.c:43]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 49 [1/1] (0.00ns)   --->   "%m = phi i2 [ %m_1, %8 ], [ 0, %.preheader.preheader ]"
+ST_4 : Operation 50 [1/1] (0.00ns)   --->   "%m_cast6 = zext i2 %m to i7" [edge_prj/main.c:28]
+ST_4 : Operation 51 [1/1] (0.00ns)   --->   "%m_cast5 = zext i2 %m to i5" [edge_prj/main.c:28]
+ST_4 : Operation 52 [1/1] (0.44ns)   --->   "%exitcond1 = icmp eq i2 %m, -1" [edge_prj/main.c:28]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 53 [1/1] (0.00ns)   --->   "%empty_6 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3) nounwind"
-ST_4 : Operation 54 [1/1] (0.54ns)   --->   "%m_1 = add i2 %m, 1" [edge_prj/main.c:43]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_4 : Operation 55 [1/1] (0.00ns)   --->   "br i1 %exitcond1, label %10, label %6" [edge_prj/main.c:43]
-ST_4 : Operation 56 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str2) nounwind" [edge_prj/main.c:44]
-ST_4 : Operation 57 [1/1] (0.00ns)   --->   "%tmp_14 = call i32 (...)* @_ssdm_op_SpecRegionBegin([16 x i8]* @p_str2) nounwind" [edge_prj/main.c:44]
-ST_4 : Operation 58 [1/1] (0.77ns)   --->   "%tmp_8 = add i7 %m_cast6, %i" [edge_prj/main.c:45]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_4 : Operation 59 [1/1] (0.00ns)   --->   "%tmp_8_cast_cast = zext i7 %tmp_8 to i14" [edge_prj/main.c:45]
-ST_4 : Operation 60 [1/1] (1.65ns)   --->   "%tmp_9 = mul i14 %tmp_8_cast_cast, 100" [edge_prj/main.c:45]   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 1.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_4 : Operation 61 [1/1] (0.00ns)   --->   "%p_shl = call i4 @_ssdm_op_BitConcatenate.i4.i2.i2(i2 %m, i2 0)" [edge_prj/main.c:45]
-ST_4 : Operation 62 [1/1] (0.00ns)   --->   "%p_shl_cast = zext i4 %p_shl to i5" [edge_prj/main.c:45]
-ST_4 : Operation 63 [1/1] (0.79ns)   --->   "%tmp_s = sub i5 %p_shl_cast, %m_cast5" [edge_prj/main.c:45]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_4 : Operation 64 [1/1] (0.65ns)   --->   "br label %7" [edge_prj/main.c:44]
-ST_4 : Operation 65 [2/2] (0.65ns)   --->   "%value = call fastcc i32 @convolution([9 x i32]* @sob_x, [9 x i32]* %block) nounwind" [edge_prj/main.c:46]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 54 [1/1] (0.54ns)   --->   "%m_1 = add i2 %m, 1" [edge_prj/main.c:28]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 55 [1/1] (0.00ns)   --->   "br i1 %exitcond1, label %9, label %5" [edge_prj/main.c:28]
+ST_4 : Operation 56 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str2) nounwind" [edge_prj/main.c:31]
+ST_4 : Operation 57 [1/1] (0.00ns)   --->   "%tmp_14 = call i32 (...)* @_ssdm_op_SpecRegionBegin([16 x i8]* @p_str2) nounwind" [edge_prj/main.c:31]
+ST_4 : Operation 58 [1/1] (0.77ns)   --->   "%tmp_8 = add i7 %m_cast6, %i" [edge_prj/main.c:33]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 59 [1/1] (0.00ns)   --->   "%tmp_8_cast_cast = zext i7 %tmp_8 to i14" [edge_prj/main.c:33]
+ST_4 : Operation 60 [1/1] (1.65ns)   --->   "%tmp_9 = mul i14 %tmp_8_cast_cast, 100" [edge_prj/main.c:33]   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 1.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 61 [1/1] (0.00ns)   --->   "%p_shl = call i4 @_ssdm_op_BitConcatenate.i4.i2.i2(i2 %m, i2 0)" [edge_prj/main.c:33]
+ST_4 : Operation 62 [1/1] (0.00ns)   --->   "%p_shl_cast = zext i4 %p_shl to i5" [edge_prj/main.c:33]
+ST_4 : Operation 63 [1/1] (0.79ns)   --->   "%tmp_s = sub i5 %p_shl_cast, %m_cast5" [edge_prj/main.c:33]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 64 [1/1] (0.65ns)   --->   "br label %6" [edge_prj/main.c:31]
+ST_4 : Operation 65 [2/2] (0.65ns)   --->   "%value = call fastcc i32 @convolution([9 x i32]* @sob_x, [9 x i32]* %block) nounwind" [edge_prj/main.c:34]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
  <State 5> : 2.07ns
-ST_5 : Operation 66 [1/1] (0.00ns)   --->   "%n = phi i2 [ 0, %6 ], [ %n_1, %8 ]"
-ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%n_cast3 = zext i2 %n to i5" [edge_prj/main.c:44]
-ST_5 : Operation 68 [1/1] (0.44ns)   --->   "%exitcond = icmp eq i2 %n, -1" [edge_prj/main.c:44]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 66 [1/1] (0.00ns)   --->   "%n = phi i2 [ 0, %5 ], [ %n_1, %7 ]"
+ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%n_cast3 = zext i2 %n to i5" [edge_prj/main.c:31]
+ST_5 : Operation 68 [1/1] (0.44ns)   --->   "%exitcond = icmp eq i2 %n, -1" [edge_prj/main.c:31]   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.81> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_5 : Operation 69 [1/1] (0.00ns)   --->   "%empty_7 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3) nounwind"
-ST_5 : Operation 70 [1/1] (0.54ns)   --->   "%n_1 = add i2 %n, 1" [edge_prj/main.c:44]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 71 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %9, label %8" [edge_prj/main.c:44]
-ST_5 : Operation 72 [1/1] (0.00ns)   --->   "%tmp_15 = call i12 @_ssdm_op_PartSelect.i12.i14.i32.i32(i14 %tmp_9, i32 2, i32 13)" [edge_prj/main.c:45]
-ST_5 : Operation 73 [1/1] (0.00ns)   --->   "%tmp1 = call i14 @_ssdm_op_BitConcatenate.i14.i12.i2(i12 %tmp_15, i2 %n)" [edge_prj/main.c:45]
-ST_5 : Operation 74 [1/1] (0.83ns)   --->   "%tmp_10 = add i14 %j_cast7, %tmp1" [edge_prj/main.c:45]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 75 [1/1] (0.00ns)   --->   "%tmp_11 = zext i14 %tmp_10 to i64" [edge_prj/main.c:45]
-ST_5 : Operation 76 [1/1] (0.00ns)   --->   "%video_addr = getelementptr [10000 x i32]* %video, i64 0, i64 %tmp_11" [edge_prj/main.c:45]
-ST_5 : Operation 77 [2/2] (1.23ns)   --->   "%video_load = load i32* %video_addr, align 4" [edge_prj/main.c:45]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_5 : Operation 78 [1/1] (0.78ns)   --->   "%tmp_12 = add i5 %n_cast3, %tmp_s" [edge_prj/main.c:45]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 79 [1/1] (0.00ns)   --->   "%empty_8 = call i32 (...)* @_ssdm_op_SpecRegionEnd([16 x i8]* @p_str2, i32 %tmp_14) nounwind" [edge_prj/main.c:45]
-ST_5 : Operation 80 [1/1] (0.00ns)   --->   "br label %.preheader" [edge_prj/main.c:43]
+ST_5 : Operation 70 [1/1] (0.54ns)   --->   "%n_1 = add i2 %n, 1" [edge_prj/main.c:31]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 71 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %8, label %7" [edge_prj/main.c:31]
+ST_5 : Operation 72 [1/1] (0.00ns)   --->   "%tmp_15 = call i12 @_ssdm_op_PartSelect.i12.i14.i32.i32(i14 %tmp_9, i32 2, i32 13)" [edge_prj/main.c:33]
+ST_5 : Operation 73 [1/1] (0.00ns)   --->   "%tmp1 = call i14 @_ssdm_op_BitConcatenate.i14.i12.i2(i12 %tmp_15, i2 %n)" [edge_prj/main.c:33]
+ST_5 : Operation 74 [1/1] (0.83ns)   --->   "%tmp_10 = add i14 %j_cast7, %tmp1" [edge_prj/main.c:33]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 75 [1/1] (0.00ns)   --->   "%tmp_11 = zext i14 %tmp_10 to i64" [edge_prj/main.c:33]
+ST_5 : Operation 76 [1/1] (0.00ns)   --->   "%video_addr = getelementptr [10000 x i32]* %video, i64 0, i64 %tmp_11" [edge_prj/main.c:33]
+ST_5 : Operation 77 [2/2] (1.23ns)   --->   "%video_load = load i32* %video_addr, align 4" [edge_prj/main.c:33]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_5 : Operation 78 [1/1] (0.78ns)   --->   "%tmp_12 = add i5 %n_cast3, %tmp_s" [edge_prj/main.c:33]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 79 [1/1] (0.00ns)   --->   "%empty_8 = call i32 (...)* @_ssdm_op_SpecRegionEnd([16 x i8]* @p_str2, i32 %tmp_14) nounwind" [edge_prj/main.c:33]
+ST_5 : Operation 80 [1/1] (0.00ns)   --->   "br label %.preheader" [edge_prj/main.c:28]
 
  <State 6> : 1.91ns
-ST_6 : Operation 81 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str3) nounwind" [edge_prj/main.c:45]
-ST_6 : Operation 82 [1/2] (1.23ns)   --->   "%video_load = load i32* %video_addr, align 4" [edge_prj/main.c:45]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_6 : Operation 83 [1/1] (0.00ns)   --->   "%tmp_12_cast = sext i5 %tmp_12 to i32" [edge_prj/main.c:45]
-ST_6 : Operation 84 [1/1] (0.00ns)   --->   "%tmp_13 = zext i32 %tmp_12_cast to i64" [edge_prj/main.c:45]
-ST_6 : Operation 85 [1/1] (0.00ns)   --->   "%block_addr = getelementptr inbounds [9 x i32]* %block, i64 0, i64 %tmp_13" [edge_prj/main.c:45]
-ST_6 : Operation 86 [1/1] (0.67ns)   --->   "store i32 %video_load, i32* %block_addr, align 4" [edge_prj/main.c:45]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_6 : Operation 87 [1/1] (0.00ns)   --->   "br label %7" [edge_prj/main.c:44]
+ST_6 : Operation 81 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([16 x i8]* @p_str3) nounwind" [edge_prj/main.c:33]
+ST_6 : Operation 82 [1/2] (1.23ns)   --->   "%video_load = load i32* %video_addr, align 4" [edge_prj/main.c:33]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_6 : Operation 83 [1/1] (0.00ns)   --->   "%tmp_12_cast = sext i5 %tmp_12 to i32" [edge_prj/main.c:33]
+ST_6 : Operation 84 [1/1] (0.00ns)   --->   "%tmp_13 = zext i32 %tmp_12_cast to i64" [edge_prj/main.c:33]
+ST_6 : Operation 85 [1/1] (0.00ns)   --->   "%block_addr = getelementptr inbounds [9 x i32]* %block, i64 0, i64 %tmp_13" [edge_prj/main.c:33]
+ST_6 : Operation 86 [1/1] (0.67ns)   --->   "store i32 %video_load, i32* %block_addr, align 4" [edge_prj/main.c:33]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_6 : Operation 87 [1/1] (0.00ns)   --->   "br label %6" [edge_prj/main.c:31]
 
  <State 7> : 0.83ns
-ST_7 : Operation 88 [1/2] (0.00ns)   --->   "%value = call fastcc i32 @convolution([9 x i32]* @sob_x, [9 x i32]* %block) nounwind" [edge_prj/main.c:46]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_7 : Operation 89 [1/1] (0.83ns)   --->   "%tmp_6 = add i14 %phi_mul, %j_cast7" [edge_prj/main.c:47]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 88 [1/2] (0.00ns)   --->   "%value = call fastcc i32 @convolution([9 x i32]* @sob_x, [9 x i32]* %block) nounwind" [edge_prj/main.c:34]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 89 [1/1] (0.83ns)   --->   "%tmp_6 = add i14 %phi_mul, %j_cast7" [edge_prj/main.c:35]   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
  <State 8> : 0.66ns
-ST_8 : Operation 90 [2/2] (0.65ns)   --->   "%value_1 = call fastcc i32 @convolution([9 x i32]* @sob_y, [9 x i32]* %block) nounwind" [edge_prj/main.c:48]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 90 [2/2] (0.65ns)   --->   "%value_1 = call fastcc i32 @convolution([9 x i32]* @sob_y, [9 x i32]* %block) nounwind" [edge_prj/main.c:37]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
  <State 9> : 1.24ns
-ST_9 : Operation 91 [1/1] (0.00ns)   --->   "%tmp_7 = zext i14 %tmp_6 to i64" [edge_prj/main.c:47]
-ST_9 : Operation 92 [1/1] (0.00ns)   --->   "%sob_x1_addr_1 = getelementptr [10000 x i32]* %sob_x1, i64 0, i64 %tmp_7" [edge_prj/main.c:47]
-ST_9 : Operation 93 [1/1] (1.23ns)   --->   "store i32 %value, i32* %sob_x1_addr_1, align 4" [edge_prj/main.c:47]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_9 : Operation 94 [1/2] (0.00ns)   --->   "%value_1 = call fastcc i32 @convolution([9 x i32]* @sob_y, [9 x i32]* %block) nounwind" [edge_prj/main.c:48]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_9 : Operation 95 [1/1] (0.00ns)   --->   "%sob_y1_addr_1 = getelementptr [10000 x i32]* %sob_y1, i64 0, i64 %tmp_7" [edge_prj/main.c:49]
-ST_9 : Operation 96 [1/1] (1.23ns)   --->   "store i32 %value_1, i32* %sob_y1_addr_1, align 4" [edge_prj/main.c:49]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
-ST_9 : Operation 97 [1/1] (0.00ns)   --->   "br label %11"
-ST_9 : Operation 98 [1/1] (0.00ns)   --->   "%empty_9 = call i32 (...)* @_ssdm_op_SpecRegionEnd([16 x i8]* @p_str1, i32 %tmp_1) nounwind" [edge_prj/main.c:51]
-ST_9 : Operation 99 [1/1] (0.00ns)   --->   "br label %3" [edge_prj/main.c:34]
+ST_9 : Operation 91 [1/1] (0.00ns)   --->   "%tmp_7 = zext i14 %tmp_6 to i64" [edge_prj/main.c:35]
+ST_9 : Operation 92 [1/1] (0.00ns)   --->   "%sob_x1_addr_1 = getelementptr [10000 x i32]* %sob_x1, i64 0, i64 %tmp_7" [edge_prj/main.c:35]
+ST_9 : Operation 93 [1/1] (1.23ns)   --->   "store i32 %value, i32* %sob_x1_addr_1, align 4" [edge_prj/main.c:35]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_9 : Operation 94 [1/2] (0.00ns)   --->   "%value_1 = call fastcc i32 @convolution([9 x i32]* @sob_y, [9 x i32]* %block) nounwind" [edge_prj/main.c:37]   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_9 : Operation 95 [1/1] (0.00ns)   --->   "%sob_y1_addr_1 = getelementptr [10000 x i32]* %sob_y1, i64 0, i64 %tmp_7" [edge_prj/main.c:38]
+ST_9 : Operation 96 [1/1] (1.23ns)   --->   "store i32 %value_1, i32* %sob_y1_addr_1, align 4" [edge_prj/main.c:38]   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 9> <RAM>
+ST_9 : Operation 97 [1/1] (0.00ns)   --->   "br label %10"
+ST_9 : Operation 98 [1/1] (0.00ns)   --->   "%empty_9 = call i32 (...)* @_ssdm_op_SpecRegionEnd([16 x i8]* @p_str1, i32 %tmp_1) nounwind" [edge_prj/main.c:40]
+ST_9 : Operation 99 [1/1] (0.00ns)   --->   "br label %2" [edge_prj/main.c:18]
 
 
 ============================================================
@@ -1931,7 +1931,7 @@ StgValue_99     (br               ) [ 0011111111]
 |----------|------------------------|---------|---------|---------|---------|
 | Operation|     Functional Unit    |  DSP48E |  Delay  |    FF   |   LUT   |
 |----------|------------------------|---------|---------|---------|---------|
-|   call   | grp_convolution_fu_199 |    3    |  1.968  |    76   |   162   |
+|   call   | grp_convolution_fu_199 |    3    |  1.312  |    53   |   138   |
 |----------|------------------------|---------|---------|---------|---------|
 |          |       grp_fu_208       |    0    |    0    |    0    |    21   |
 |          |     next_mul_fu_213    |    0    |    0    |    0    |    21   |
@@ -1974,7 +1974,7 @@ StgValue_99     (br               ) [ 0011111111]
 |----------|------------------------|---------|---------|---------|---------|
 |   sext   |   tmp_12_cast_fu_373   |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
-|   Total  |                        |    3    |  1.968  |    76   |   424   |
+|   Total  |                        |    3    |  1.312  |    53   |   400   |
 |----------|------------------------|---------|---------|---------|---------|
 
 Memories:
@@ -2038,10 +2038,10 @@ Memories:
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |    -   |    3   |    1   |   76   |   424  |
+|  Function |    -   |    3   |    1   |   53   |   400  |
 |   Memory  |    0   |    -   |    -   |   192  |   15   |
 |Multiplexer|    -   |    -   |    5   |    -   |   81   |
 |  Register |    -   |    -   |    -   |   164  |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |    0   |    3   |    7   |   432  |   520  |
+|   Total   |    0   |    3   |    7   |   409  |   496  |
 +-----------+--------+--------+--------+--------+--------+

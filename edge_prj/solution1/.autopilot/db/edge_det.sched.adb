@@ -106,7 +106,7 @@
 						<name>block</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>28</lineNumber>
+						<lineNumber>11</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -121,7 +121,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>28</second>
+										<second>11</second>
 									</item>
 								</second>
 							</item>
@@ -148,7 +148,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>33</lineNumber>
+						<lineNumber>16</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -163,7 +163,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>33</second>
+										<second>16</second>
 									</item>
 								</second>
 							</item>
@@ -281,7 +281,7 @@
 						<name>exitcond3</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>33</lineNumber>
+						<lineNumber>16</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -296,7 +296,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>33</second>
+										<second>16</second>
 									</item>
 								</second>
 							</item>
@@ -324,7 +324,7 @@
 						<name>i_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>33</lineNumber>
+						<lineNumber>16</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -339,7 +339,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>33</second>
+										<second>16</second>
 									</item>
 								</second>
 							</item>
@@ -367,7 +367,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>33</lineNumber>
+						<lineNumber>16</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -382,7 +382,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>33</second>
+										<second>16</second>
 									</item>
 								</second>
 							</item>
@@ -411,7 +411,7 @@
 						<name>tmp</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>36</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -426,7 +426,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>36</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -454,7 +454,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>34</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -469,7 +469,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>34</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -527,7 +527,7 @@
 						<name>j_cast7</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>34</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -542,7 +542,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>34</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -569,7 +569,7 @@
 						<name>exitcond2</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>34</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -584,7 +584,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>34</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -612,7 +612,7 @@
 						<name>j_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>34</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -627,7 +627,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>34</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -655,7 +655,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>34</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -670,7 +670,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>34</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -699,7 +699,7 @@
 						<name>tmp_3</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>36</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -714,7 +714,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>36</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -742,7 +742,7 @@
 						<name>or_cond</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>36</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -757,7 +757,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>36</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -785,7 +785,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>36</lineNumber>
+						<lineNumber>20</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -800,7 +800,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>36</second>
+										<second>20</second>
 									</item>
 								</second>
 							</item>
@@ -829,7 +829,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -844,7 +844,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -902,7 +902,7 @@
 						<name>m_cast6</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -917,7 +917,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -944,7 +944,7 @@
 						<name>m_cast5</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -959,7 +959,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -986,7 +986,7 @@
 						<name>exitcond1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1001,7 +1001,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -1029,7 +1029,7 @@
 						<name>m_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1044,7 +1044,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -1072,7 +1072,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1087,7 +1087,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -1116,7 +1116,7 @@
 						<name>tmp_8</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1131,7 +1131,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1159,7 +1159,7 @@
 						<name>tmp_8_cast_cast</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1174,7 +1174,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1201,7 +1201,7 @@
 						<name>tmp_9</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1216,7 +1216,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1244,7 +1244,7 @@
 						<name>p_shl</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1259,7 +1259,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1288,7 +1288,7 @@
 						<name>p_shl_cast</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1303,7 +1303,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1330,7 +1330,7 @@
 						<name>tmp_s</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1345,7 +1345,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1373,7 +1373,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>44</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1388,7 +1388,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>44</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1446,7 +1446,7 @@
 						<name>n_cast3</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>44</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1461,7 +1461,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>44</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1488,7 +1488,7 @@
 						<name>exitcond</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>44</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1503,7 +1503,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>44</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1531,7 +1531,7 @@
 						<name>n_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>44</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1546,7 +1546,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>44</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1574,7 +1574,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>44</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1589,7 +1589,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>44</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -1618,7 +1618,7 @@
 						<name>tmp_15</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1633,7 +1633,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1663,7 +1663,7 @@
 						<name>tmp1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1678,7 +1678,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1707,7 +1707,7 @@
 						<name>tmp_10</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1722,7 +1722,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1750,7 +1750,7 @@
 						<name>tmp_11</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1765,7 +1765,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1792,7 +1792,7 @@
 						<name>video_addr</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1807,7 +1807,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1836,7 +1836,7 @@
 						<name>video_load</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1851,7 +1851,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1878,7 +1878,7 @@
 						<name>tmp_12</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1893,7 +1893,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1921,7 +1921,7 @@
 						<name>tmp_12_cast</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1936,7 +1936,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -1963,7 +1963,7 @@
 						<name>tmp_13</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1978,7 +1978,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -2005,7 +2005,7 @@
 						<name>block_addr</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2020,7 +2020,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -2049,7 +2049,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>45</lineNumber>
+						<lineNumber>33</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2064,7 +2064,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>45</second>
+										<second>33</second>
 									</item>
 								</second>
 							</item>
@@ -2092,7 +2092,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>44</lineNumber>
+						<lineNumber>31</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2107,7 +2107,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>44</second>
+										<second>31</second>
 									</item>
 								</second>
 							</item>
@@ -2134,7 +2134,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>43</lineNumber>
+						<lineNumber>28</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2149,7 +2149,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>43</second>
+										<second>28</second>
 									</item>
 								</second>
 							</item>
@@ -2176,7 +2176,7 @@
 						<name>value</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>46</lineNumber>
+						<lineNumber>34</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2191,7 +2191,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>46</second>
+										<second>34</second>
 									</item>
 								</second>
 							</item>
@@ -2220,7 +2220,7 @@
 						<name>tmp_6</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>47</lineNumber>
+						<lineNumber>35</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2235,7 +2235,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>47</second>
+										<second>35</second>
 									</item>
 								</second>
 							</item>
@@ -2263,7 +2263,7 @@
 						<name>tmp_7</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>47</lineNumber>
+						<lineNumber>35</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2278,7 +2278,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>47</second>
+										<second>35</second>
 									</item>
 								</second>
 							</item>
@@ -2305,7 +2305,7 @@
 						<name>sob_x1_addr_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>47</lineNumber>
+						<lineNumber>35</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2320,7 +2320,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>47</second>
+										<second>35</second>
 									</item>
 								</second>
 							</item>
@@ -2349,7 +2349,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>47</lineNumber>
+						<lineNumber>35</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2364,7 +2364,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>47</second>
+										<second>35</second>
 									</item>
 								</second>
 							</item>
@@ -2392,7 +2392,7 @@
 						<name>value_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>48</lineNumber>
+						<lineNumber>37</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2407,7 +2407,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>48</second>
+										<second>37</second>
 									</item>
 								</second>
 							</item>
@@ -2437,7 +2437,7 @@
 						<name>sob_y1_addr_1</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>49</lineNumber>
+						<lineNumber>38</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2452,7 +2452,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>49</second>
+										<second>38</second>
 									</item>
 								</second>
 							</item>
@@ -2481,7 +2481,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>49</lineNumber>
+						<lineNumber>38</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2496,7 +2496,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>49</second>
+										<second>38</second>
 									</item>
 								</second>
 							</item>
@@ -2552,7 +2552,7 @@
 						<name>tmp_4</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>38</lineNumber>
+						<lineNumber>22</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2567,7 +2567,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>38</second>
+										<second>22</second>
 									</item>
 								</second>
 							</item>
@@ -2595,7 +2595,7 @@
 						<name>tmp_5</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>38</lineNumber>
+						<lineNumber>22</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2610,7 +2610,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>38</second>
+										<second>22</second>
 									</item>
 								</second>
 							</item>
@@ -2637,7 +2637,7 @@
 						<name>sob_x1_addr</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>38</lineNumber>
+						<lineNumber>22</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2652,7 +2652,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>38</second>
+										<second>22</second>
 									</item>
 								</second>
 							</item>
@@ -2681,7 +2681,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>38</lineNumber>
+						<lineNumber>22</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2696,7 +2696,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>38</second>
+										<second>22</second>
 									</item>
 								</second>
 							</item>
@@ -2724,7 +2724,7 @@
 						<name>sob_y1_addr</name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2739,7 +2739,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>39</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -2768,7 +2768,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<lineNumber>23</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2783,7 +2783,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>39</second>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
@@ -2811,7 +2811,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>40</lineNumber>
+						<lineNumber>24</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2826,7 +2826,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>40</second>
+										<second>24</second>
 									</item>
 								</second>
 							</item>
@@ -2853,7 +2853,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>34</lineNumber>
+						<lineNumber>18</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2868,7 +2868,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>34</second>
+										<second>18</second>
 									</item>
 								</second>
 							</item>
@@ -2895,7 +2895,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>33</lineNumber>
+						<lineNumber>16</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2910,7 +2910,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>33</second>
+										<second>16</second>
 									</item>
 								</second>
 							</item>
@@ -2937,7 +2937,7 @@
 						<name></name>
 						<fileName>edge_prj/main.c</fileName>
 						<fileDirectory>F:\0yan\fpga\HLS</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>42</lineNumber>
 						<contextFuncName>edge_det</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2952,7 +2952,7 @@
 											<first>edge_prj/main.c</first>
 											<second>edge_det</second>
 										</first>
-										<second>52</second>
+										<second>42</second>
 									</item>
 								</second>
 							</item>
@@ -3327,7 +3327,7 @@
 				<Obj>
 					<type>3</type>
 					<id>12</id>
-					<name></name>
+					<name>meminst4.preheader</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -4720,7 +4720,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>430201</mMinLatency>
+			<mMinLatency>790201</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -4766,7 +4766,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>100</mMinTripCount>
 			<mMaxTripCount>100</mMaxTripCount>
-			<mMinLatency>430200</mMinLatency>
+			<mMinLatency>790200</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -4814,7 +4814,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>100</mMinTripCount>
 			<mMaxTripCount>100</mMaxTripCount>
-			<mMinLatency>4300</mMinLatency>
+			<mMinLatency>7900</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -4953,7 +4953,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>17</mMinLatency>
+			<mMinLatency>53</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>

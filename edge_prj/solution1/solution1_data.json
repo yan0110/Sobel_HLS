@@ -245,29 +245,36 @@
     "Metrics": {
       "convolution": {
         "Latency": {
-          "LatencyBest": "7",
-          "LatencyAvg": "7",
-          "LatencyWorst": "7",
-          "PipelineII": "7",
+          "LatencyBest": "25",
+          "LatencyAvg": "25",
+          "LatencyWorst": "25",
+          "PipelineII": "25",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "0.13",
-          "Estimate": "6.13"
+          "Estimate": "5.77"
         },
         "Loops": [{
             "Name": "convolution_label5",
             "TripCount": "3",
-            "Latency": "6",
+            "Latency": "24",
             "PipelineII": "",
-            "PipelineDepth": "2"
+            "PipelineDepth": "8",
+            "Loops": [{
+                "Name": "convolution_label6",
+                "TripCount": "3",
+                "Latency": "6",
+                "PipelineII": "",
+                "PipelineDepth": "2"
+              }]
           }],
         "Area": {
           "DSP48E": "3",
-          "FF": "71",
-          "LUT": "183",
+          "FF": "49",
+          "LUT": "177",
           "BRAM_18K": "0",
           "URAM": "0"
         }
@@ -275,39 +282,39 @@
       "edge_det": {
         "Latency": {
           "LatencyBest": "20201",
-          "LatencyAvg": "230201",
-          "LatencyWorst": "430201",
+          "LatencyAvg": "410201",
+          "LatencyWorst": "790201",
           "PipelineIIMin": "20202",
-          "PipelineIIMax": "430202",
-          "PipelineII": "20202 ~ 430202",
+          "PipelineIIMax": "790202",
+          "PipelineII": "20202 ~ 790202",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "0.13",
-          "Estimate": "6.13"
+          "Estimate": "5.77"
         },
         "Loops": [{
             "Name": "edge_det_label1",
             "TripCount": "100",
             "LatencyMin": "20200",
-            "LatencyMax": "430200",
-            "Latency": "20200 ~ 430200",
+            "LatencyMax": "790200",
+            "Latency": "20200 ~ 790200",
             "PipelineII": "",
             "PipelineDepthMin": "202",
-            "PipelineDepthMax": "4302",
-            "PipelineDepth": "202 ~ 4302",
+            "PipelineDepthMax": "7902",
+            "PipelineDepth": "202 ~ 7902",
             "Loops": [{
                 "Name": "edge_det_label2",
                 "TripCount": "100",
                 "LatencyMin": "200",
-                "LatencyMax": "4300",
-                "Latency": "200 ~ 4300",
+                "LatencyMax": "7900",
+                "Latency": "200 ~ 7900",
                 "PipelineII": "",
                 "PipelineDepthMin": "2",
-                "PipelineDepthMax": "43",
-                "PipelineDepth": "2 ~ 43",
+                "PipelineDepthMax": "79",
+                "PipelineDepth": "2 ~ 79",
                 "Loops": [{
                     "Name": "edge_det_label3",
                     "TripCount": "3",
@@ -327,8 +334,8 @@
         "Area": {
           "BRAM_18K": "0",
           "DSP48E": "3",
-          "FF": "414",
-          "LUT": "692",
+          "FF": "392",
+          "LUT": "686",
           "URAM": "0"
         }
       }
@@ -336,7 +343,7 @@
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2019-12-26 22:08:23 +0800",
+    "Time": "2019-12-27 16:25:45 +0800",
     "ToolName": "vivado_hls",
     "ToolVersion": "2017.4"
   }

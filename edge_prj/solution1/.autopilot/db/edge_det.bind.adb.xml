@@ -107,7 +107,7 @@
 
 <Node id="6" bw="0" op_0_bw="0" op_1_bw="32">
 <![CDATA[
-:0  call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %video) nounwind, !map !13
+meminst4.preheader:0  call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %video) nounwind, !map !13
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -122,7 +122,7 @@
 
 <Node id="7" bw="0" op_0_bw="0" op_1_bw="32">
 <![CDATA[
-:1  call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %sob_x1) nounwind, !map !19
+meminst4.preheader:1  call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %sob_x1) nounwind, !map !19
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -137,7 +137,7 @@
 
 <Node id="8" bw="0" op_0_bw="0" op_1_bw="32">
 <![CDATA[
-:2  call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %sob_y1) nounwind, !map !23
+meminst4.preheader:2  call void (...)* @_ssdm_op_SpecBitsMap([10000 x i32]* %sob_y1) nounwind, !map !23
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -152,7 +152,7 @@
 
 <Node id="9" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-:3  call void (...)* @_ssdm_op_SpecTopModule([9 x i8]* @edge_det_str) nounwind
+meminst4.preheader:3  call void (...)* @_ssdm_op_SpecTopModule([9 x i8]* @edge_det_str) nounwind
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -167,7 +167,7 @@
 
 <Node id="10" bw="32" op_0_bw="64">
 <![CDATA[
-:4  %block = alloca [9 x i32], align 16
+meminst4.preheader:4  %block = alloca [9 x i32], align 16
 
 ]]></Node>
 <StgValue><ssdm name="block"/><MemPortTyVec>2 3 </MemPortTyVec>
@@ -183,7 +183,7 @@
 
 <Node id="11" bw="0" op_0_bw="0">
 <![CDATA[
-:5  br label %1
+meminst4.preheader:5  br label %0
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -201,7 +201,7 @@
 
 <Node id="13" bw="7" op_0_bw="7" op_1_bw="0">
 <![CDATA[
-:0  %i = phi i7 [ 0, %0 ], [ %i_1, %12 ]
+:0  %i = phi i7 [ 0, %meminst4.preheader ], [ %i_1, %11 ]
 
 ]]></Node>
 <StgValue><ssdm name="i"/></StgValue>
@@ -216,7 +216,7 @@
 
 <Node id="14" bw="14" op_0_bw="14" op_1_bw="0">
 <![CDATA[
-:1  %phi_mul = phi i14 [ 0, %0 ], [ %next_mul, %12 ]
+:1  %phi_mul = phi i14 [ 0, %meminst4.preheader ], [ %next_mul, %11 ]
 
 ]]></Node>
 <StgValue><ssdm name="phi_mul"/></StgValue>
@@ -291,7 +291,7 @@
 
 <Node id="19" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-:6  br i1 %exitcond3, label %13, label %2
+:6  br i1 %exitcond3, label %12, label %1
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -355,7 +355,7 @@
 
 <Node id="24" bw="0" op_0_bw="0">
 <![CDATA[
-:3  br label %3
+:3  br label %2
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -389,7 +389,7 @@
 
 <Node id="26" bw="7" op_0_bw="7" op_1_bw="0">
 <![CDATA[
-:0  %j = phi i7 [ 0, %2 ], [ %j_1, %11 ]
+:0  %j = phi i7 [ 0, %1 ], [ %j_1, %10 ]
 
 ]]></Node>
 <StgValue><ssdm name="j"/></StgValue>
@@ -464,7 +464,7 @@
 
 <Node id="31" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-:5  br i1 %exitcond2, label %12, label %4
+:5  br i1 %exitcond2, label %11, label %3
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -544,7 +544,7 @@
 
 <Node id="37" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-:4  br i1 %or_cond, label %5, label %.preheader.preheader
+:4  br i1 %or_cond, label %4, label %.preheader.preheader
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -680,7 +680,7 @@
 
 <Node id="99" bw="0" op_0_bw="0">
 <![CDATA[
-:6  br label %11
+:6  br label %10
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -712,7 +712,7 @@
 
 <Node id="105" bw="0" op_0_bw="0">
 <![CDATA[
-:1  br label %1
+:1  br label %0
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -730,7 +730,7 @@
 
 <Node id="41" bw="2" op_0_bw="2" op_1_bw="0">
 <![CDATA[
-.preheader:0  %m = phi i2 [ %m_1, %9 ], [ 0, %.preheader.preheader ]
+.preheader:0  %m = phi i2 [ %m_1, %8 ], [ 0, %.preheader.preheader ]
 
 ]]></Node>
 <StgValue><ssdm name="m"/></StgValue>
@@ -820,7 +820,7 @@
 
 <Node id="47" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-.preheader:6  br i1 %exitcond1, label %10, label %6
+.preheader:6  br i1 %exitcond1, label %9, label %5
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -964,7 +964,7 @@
 
 <Node id="57" bw="0" op_0_bw="0">
 <![CDATA[
-:8  br label %7
+:8  br label %6
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -998,7 +998,7 @@
 
 <Node id="59" bw="2" op_0_bw="2" op_1_bw="0">
 <![CDATA[
-:0  %n = phi i2 [ 0, %6 ], [ %n_1, %8 ]
+:0  %n = phi i2 [ 0, %5 ], [ %n_1, %7 ]
 
 ]]></Node>
 <StgValue><ssdm name="n"/></StgValue>
@@ -1073,7 +1073,7 @@
 
 <Node id="64" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-:5  br i1 %exitcond, label %9, label %8
+:5  br i1 %exitcond, label %8, label %7
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1325,7 +1325,7 @@
 
 <Node id="78" bw="0" op_0_bw="0">
 <![CDATA[
-:12  br label %7
+:12  br label %6
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1491,7 +1491,7 @@
 
 <Node id="91" bw="0" op_0_bw="0">
 <![CDATA[
-:8  br label %11
+:8  br label %10
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1521,7 +1521,7 @@
 
 <Node id="102" bw="0" op_0_bw="0">
 <![CDATA[
-:1  br label %3
+:1  br label %2
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>

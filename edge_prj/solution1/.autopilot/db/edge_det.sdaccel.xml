@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'edge_det'" level="0">
-<item name = "Date">Thu Dec 26 22:08:21 2019
+<item name = "Date">Fri Dec 27 16:25:43 2019
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">edge_prj</item>
@@ -15,27 +15,27 @@
 <section name = "" level="1">
 <item name = "Target clock period (ns)">10.00</item>
 <item name = "Clock uncertainty (ns)">0.13</item>
-<item name = "Estimated clock period (ns)">6.13</item>
+<item name = "Estimated clock period (ns)">5.77</item>
 </section>
 </item>
 <item name = "Latency (clock cycles)">
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">20201, 430201, 20201, 430201, none</column>
+<column name="">20201, 790201, 20201, 790201, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_convolution_fu_199">convolution, 7, 7, 7, 7, none</column>
+<column name="grp_convolution_fu_199">convolution, 25, 25, 25, 25, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- edge_det_label1">20200, 430200, 202 ~ 4302, -, -, 100, no</column>
-<column name=" + edge_det_label2">200, 4300, 2 ~ 43, -, -, 100, no</column>
+<column name="- edge_det_label1">20200, 790200, 202 ~ 7902, -, -, 100, no</column>
+<column name=" + edge_det_label2">200, 7900, 2 ~ 79, -, -, 100, no</column>
 <column name="  ++ edge_det_label3">24, 24, 8, -, -, 3, no</column>
 <column name="   +++ edge_det_label4">6, 6, 2, -, -, 3, no</column>
 </table>
@@ -52,7 +52,7 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, 0, 0, 264, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 3, 71, 183, -</column>
+<column name="Instance">-, 3, 49, 177, -</column>
 <column name="Memory">0, -, 192, 15, -</column>
 <column name="Multiplexer">-, -, -, 230, -</column>
 <column name="Register">-, -, 151, -, -</column>
@@ -64,7 +64,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_convolution_fu_199">convolution, 0, 3, 71, 183</column>
+<column name="grp_convolution_fu_199">convolution, 0, 3, 49, 177</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
@@ -181,11 +181,11 @@
 <item name = "Max Delay">2.42</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'m'">phi, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, &apos;m&apos;, edge_prj/main.c:43</column>
-<column name="'m_cast6', edge_prj/main.c:43">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_8', edge_prj/main.c:45">add, 0.77, 0.77, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_8_cast_cast', edge_prj/main.c:45">zext, 0.00, 0.77, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_9', edge_prj/main.c:45">mul, 1.65, 2.42, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'m'">phi, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, &apos;m&apos;, edge_prj/main.c:28</column>
+<column name="'m_cast6', edge_prj/main.c:28">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_8', edge_prj/main.c:33">add, 0.77, 0.77, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_8_cast_cast', edge_prj/main.c:33">zext, 0.00, 0.77, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_9', edge_prj/main.c:33">mul, 1.65, 2.42, -, -, -, -, -, -, -, -, -, -, -</column>
 </table>
 </item>
 </section>

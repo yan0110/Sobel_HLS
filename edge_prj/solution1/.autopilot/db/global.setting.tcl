@@ -44,12 +44,12 @@ set TargetInfo "xczu7ev:-ffvc1156:-2-i"
 set SourceFiles {sc {} c ../main.c}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {F:/0yan/fpga/HLS/edge_prj/solution1/solution1.directive}
-set TBFiles {verilog {../test.c ../in.txt} bc {../test.c ../in.txt} sc {../test.c ../in.txt} vhdl {../test.c ../in.txt} c {} cas {../test.c ../in.txt}}
+set TBFiles {verilog {../test.c ../in.txt ../gray.txt} bc {../test.c ../in.txt ../gray.txt} vhdl {../test.c ../in.txt ../gray.txt} sc {../test.c ../in.txt ../gray.txt} cas {../test.c ../in.txt ../gray.txt} c {}}
 set SpecLanguage "C"
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {verilog {} bc {} sc {} vhdl {} c {} cas {}}
-set TBInstNames {verilog {} bc {} sc {} vhdl {} c {} cas {}}
+set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set PlatformFiles {{DefaultPlatform {xilinx/zynquplus/zynquplus xilinx/zynquplus/zynquplus_fpv7}}}

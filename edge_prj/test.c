@@ -11,7 +11,7 @@ void  main()
   int sob_x1out[N];
   int sob_y1out[N];   //输出向量数组
 
-    fp=fopen("F:\\0yan\\fpga\\HLS\\edge_prj\\in.txt","r");//将图像文件in.txt指向fp
+    fp=fopen("F:\\0yan\\fpga\\HLS\\edge_prj\\gray.txt","r");//将图像文件in.txt指向fp
       for(i=0;i<N;i++){
       int tmp;
       fscanf(fp,"%x,",&tmp);

@@ -20,30 +20,37 @@
 <SummaryOfTimingAnalysis>
 <TargetClockPeriod>10.00</TargetClockPeriod>
 <ClockUncertainty>0.13</ClockUncertainty>
-<EstimatedClockPeriod>6.13</EstimatedClockPeriod>
+<EstimatedClockPeriod>5.77</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>7</Best-caseLatency>
-<Average-caseLatency>7</Average-caseLatency>
-<Worst-caseLatency>7</Worst-caseLatency>
-<PipelineInitiationInterval>7</PipelineInitiationInterval>
+<Best-caseLatency>25</Best-caseLatency>
+<Average-caseLatency>25</Average-caseLatency>
+<Worst-caseLatency>25</Worst-caseLatency>
+<PipelineInitiationInterval>25</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <convolution_label5>
 <Name>convolution_label5</Name>
 <TripCount>3</TripCount>
+<Latency>24</Latency>
+<IterationLatency>8</IterationLatency>
+<PipelineDepth>8</PipelineDepth>
+<convolution_label6>
+<Name>convolution_label6</Name>
+<TripCount>3</TripCount>
 <Latency>6</Latency>
 <IterationLatency>2</IterationLatency>
 <PipelineDepth>2</PipelineDepth>
+</convolution_label6>
 </convolution_label5>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 <AreaEstimates>
 <Resources>
 <DSP48E>3</DSP48E>
-<FF>71</FF>
-<LUT>183</LUT>
+<FF>49</FF>
+<LUT>177</LUT>
 <BRAM_18K>0</BRAM_18K>
 <URAM>0</URAM>
 </Resources>
@@ -200,38 +207,38 @@
 <SummaryOfTimingAnalysis>
 <TargetClockPeriod>10.00</TargetClockPeriod>
 <ClockUncertainty>0.13</ClockUncertainty>
-<EstimatedClockPeriod>6.13</EstimatedClockPeriod>
+<EstimatedClockPeriod>5.77</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <Best-caseLatency>20201</Best-caseLatency>
-<Average-caseLatency>230201</Average-caseLatency>
-<Worst-caseLatency>430201</Worst-caseLatency>
-<PipelineInitiationInterval>20202 ~ 430202</PipelineInitiationInterval>
+<Average-caseLatency>410201</Average-caseLatency>
+<Worst-caseLatency>790201</Worst-caseLatency>
+<PipelineInitiationInterval>20202 ~ 790202</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <edge_det_label1>
 <Name>edge_det_label1</Name>
 <TripCount>100</TripCount>
-<Latency>20200 ~ 430200</Latency>
+<Latency>20200 ~ 790200</Latency>
 <IterationLatency>
 <range>
 <min>202</min>
-<max>4302</max>
+<max>7902</max>
 </range>
 </IterationLatency>
-<PipelineDepth>202 ~ 4302</PipelineDepth>
+<PipelineDepth>202 ~ 7902</PipelineDepth>
 <edge_det_label2>
 <Name>edge_det_label2</Name>
 <TripCount>100</TripCount>
-<Latency>200 ~ 4300</Latency>
+<Latency>200 ~ 7900</Latency>
 <IterationLatency>
 <range>
 <min>2</min>
-<max>43</max>
+<max>79</max>
 </range>
 </IterationLatency>
-<PipelineDepth>2 ~ 43</PipelineDepth>
+<PipelineDepth>2 ~ 79</PipelineDepth>
 <edge_det_label3>
 <Name>edge_det_label3</Name>
 <TripCount>3</TripCount>
@@ -254,8 +261,8 @@
 <Resources>
 <BRAM_18K>0</BRAM_18K>
 <DSP48E>3</DSP48E>
-<FF>414</FF>
-<LUT>692</LUT>
+<FF>392</FF>
+<LUT>686</LUT>
 <URAM>0</URAM>
 </Resources>
 </AreaEstimates>
