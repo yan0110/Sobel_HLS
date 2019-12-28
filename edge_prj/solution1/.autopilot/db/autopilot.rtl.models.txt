@@ -1,3 +1,4 @@
+edge_det_ama_addmbkb
 edge_det_sob_x
 edge_det_sob_y
 edge_det_block

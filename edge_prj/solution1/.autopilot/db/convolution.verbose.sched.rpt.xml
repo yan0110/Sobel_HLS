@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'convolution'" level="0">
-<item name = "Date">Fri Dec 27 16:25:42 2019
+<item name = "Date">Sat Dec 28 23:22:39 2019
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">edge_prj</item>

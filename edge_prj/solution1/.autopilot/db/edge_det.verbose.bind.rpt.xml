@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'edge_det'" level="0">
-<item name = "Date">Fri Dec 27 16:25:42 2019
+<item name = "Date">Sat Dec 28 23:22:40 2019
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">edge_prj</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_convolution_fu_199">convolution, 25, 25, 25, 25, none</column>
+<column name="grp_convolution_fu_207">convolution, 25, 25, 25, 25, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

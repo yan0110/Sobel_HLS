@@ -17,7 +17,7 @@ edge_det_label1:for(i=0;i<hei;i++)
 
 edge_det_label2:for(j=0;j<wid;j++)
 	   {
-	     if(i>wid-3 || j>hei-3)
+	     if(i == wid-1 || j == hei-1 || i== 1 || j== 1)
 		 {
            sob_x1[i*wid+j]=0;
 		   sob_y1[i*wid+j]=0;
@@ -27,7 +27,7 @@ edge_det_label2:for(j=0;j<wid;j++)
 
 edge_det_label3:for(m=0;m<3;m++)
 edge_det_label4:for(n=0;n<3;n++)
-					 block[m*3+n]=video[(i+m)*wid+j+n]; //将此像素点的周围像素赋值到block
+				block[m*3+n]=video[(i+m-1)*wid+j+n-1]; //将此像素点的周围像素赋值到block
 				 value=convolution(sob_x,block);
 				 sob_x1[i*wid+j]=value;
 

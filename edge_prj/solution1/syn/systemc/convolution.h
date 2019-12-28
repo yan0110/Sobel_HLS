@@ -54,7 +54,7 @@ struct convolution : public sc_module {
     sc_signal< sc_lv<2> > i_reg_60;
     sc_signal< sc_lv<2> > j_reg_71;
     sc_signal< sc_logic > ap_CS_fsm_state4;
-    sc_signal< sc_lv<64> > tmp_14_fu_149_p1;
+    sc_signal< sc_lv<64> > tmp_18_fu_149_p1;
     sc_signal< sc_lv<32> > value_fu_32;
     sc_signal< sc_lv<32> > value_2_fu_161_p2;
     sc_signal< sc_lv<4> > p_shl_fu_106_p3;
@@ -63,9 +63,9 @@ struct convolution : public sc_module {
     sc_signal< sc_lv<5> > j_cast1_fu_124_p1;
     sc_signal< sc_lv<5> > tmp_s_fu_140_p2;
     sc_signal< sc_lv<32> > tmp_cast_fu_145_p1;
-    sc_signal< sc_lv<32> > tmp_15_fu_155_p0;
-    sc_signal< sc_lv<32> > tmp_15_fu_155_p1;
-    sc_signal< sc_lv<32> > tmp_15_fu_155_p2;
+    sc_signal< sc_lv<32> > tmp_19_fu_155_p0;
+    sc_signal< sc_lv<32> > tmp_19_fu_155_p1;
+    sc_signal< sc_lv<32> > tmp_19_fu_155_p2;
     sc_signal< sc_lv<4> > ap_NS_fsm;
     static const sc_logic ap_const_logic_1;
     static const sc_logic ap_const_logic_0;
@@ -105,10 +105,10 @@ struct convolution : public sc_module {
     void thread_operatr_ce0();
     void thread_p_shl_cast_fu_114_p1();
     void thread_p_shl_fu_106_p3();
-    void thread_tmp_14_fu_149_p1();
-    void thread_tmp_15_fu_155_p0();
-    void thread_tmp_15_fu_155_p1();
-    void thread_tmp_15_fu_155_p2();
+    void thread_tmp_18_fu_149_p1();
+    void thread_tmp_19_fu_155_p0();
+    void thread_tmp_19_fu_155_p1();
+    void thread_tmp_19_fu_155_p2();
     void thread_tmp_cast_fu_145_p1();
     void thread_tmp_fu_118_p2();
     void thread_tmp_s_fu_140_p2();

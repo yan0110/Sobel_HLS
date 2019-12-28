@@ -17,5 +17,9 @@ const Port_Property HLS_Design_Meta::port_props[]={
 	Port_Property("sob_y1_ce0", 1, hls_out, 2, "ap_memory", "mem_ce", 1),
 	Port_Property("sob_y1_we0", 1, hls_out, 2, "ap_memory", "mem_we", 1),
 	Port_Property("sob_y1_d0", 32, hls_out, 2, "ap_memory", "mem_din", 1),
+	Port_Property("sob_xy1_address0", 14, hls_out, 3, "ap_memory", "mem_address", 1),
+	Port_Property("sob_xy1_ce0", 1, hls_out, 3, "ap_memory", "mem_ce", 1),
+	Port_Property("sob_xy1_we0", 1, hls_out, 3, "ap_memory", "mem_we", 1),
+	Port_Property("sob_xy1_d0", 32, hls_out, 3, "ap_memory", "mem_din", 1),
 };
 const char* HLS_Design_Meta::dut_name = "edge_det";

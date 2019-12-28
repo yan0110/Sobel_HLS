@@ -37,6 +37,7 @@
     "CSource": ["..\/main.c"],
     "Vhdl": [
       "impl\/vhdl\/convolution.vhd",
+      "impl\/vhdl\/edge_det_ama_addmbkb.vhd",
       "impl\/vhdl\/edge_det_block.vhd",
       "impl\/vhdl\/edge_det_sob_x.vhd",
       "impl\/vhdl\/edge_det_sob_y.vhd",
@@ -44,6 +45,7 @@
     ],
     "Verilog": [
       "impl\/verilog\/convolution.v",
+      "impl\/verilog\/edge_det_ama_addmbkb.v",
       "impl\/verilog\/edge_det_block.v",
       "impl\/verilog\/edge_det_sob_x.v",
       "impl\/verilog\/edge_det_sob_x_rom.dat",
@@ -89,6 +91,24 @@
         }}
     },
     "sob_x1_d0": {
+      "type": "data",
+      "dir": "out",
+      "width": "32",
+      "ctype": {"DATA": {
+          "Type": "integer signed",
+          "Width": "32"
+        }}
+    },
+    "sob_xy1_address0": {
+      "type": "data",
+      "dir": "out",
+      "width": "14",
+      "ctype": {"DATA": {
+          "Type": "null",
+          "Width": "14"
+        }}
+    },
+    "sob_xy1_d0": {
       "type": "data",
       "dir": "out",
       "width": "32",
@@ -202,6 +222,22 @@
     "sob_y1_d0": {
       "dir": "out",
       "width": "32"
+    },
+    "sob_xy1_address0": {
+      "dir": "out",
+      "width": "14"
+    },
+    "sob_xy1_ce0": {
+      "dir": "out",
+      "width": "1"
+    },
+    "sob_xy1_we0": {
+      "dir": "out",
+      "width": "1"
+    },
+    "sob_xy1_d0": {
+      "dir": "out",
+      "width": "32"
     }
   },
   "CPorts": {
@@ -232,6 +268,14 @@
       "busTypeRef": "ap_memory",
       "arraySize": "10000",
       "handshakeRef": "ap_none"
+    },
+    "sob_xy1_d0": {
+      "interfaceRef": "sob_xy1_d0",
+      "dir": "out",
+      "dataWidth": "32",
+      "busTypeRef": "ap_memory",
+      "arraySize": "10000",
+      "handshakeRef": "ap_none"
     }
   },
   "ModuleInfo": {
@@ -239,7 +283,7 @@
       "ModuleName": "edge_det",
       "Instances": [{
           "ModuleName": "convolution",
-          "InstanceName": "grp_convolution_fu_199"
+          "InstanceName": "grp_convolution_fu_207"
         }]
     },
     "Metrics": {
@@ -333,9 +377,9 @@
           }],
         "Area": {
           "BRAM_18K": "0",
-          "DSP48E": "3",
-          "FF": "392",
-          "LUT": "686",
+          "DSP48E": "4",
+          "FF": "395",
+          "LUT": "918",
           "URAM": "0"
         }
       }
@@ -343,7 +387,7 @@
   },
   "GenData": {
     "DataVersion": "0.1",
-    "Time": "2019-12-27 16:25:45 +0800",
+    "Time": "2019-12-28 23:22:42 +0800",
     "ToolName": "vivado_hls",
     "ToolVersion": "2017.4"
   }

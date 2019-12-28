@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'edge_det'" level="0">
-<item name = "Date">Fri Dec 27 16:25:43 2019
+<item name = "Date">Sat Dec 28 23:22:40 2019
 </item>
 <item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
 <item name = "Project">edge_prj</item>
@@ -29,7 +29,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_convolution_fu_199">convolution, 25, 25, 25, 25, none</column>
+<column name="grp_convolution_fu_207">convolution, 25, 25, 25, 25, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -49,13 +49,13 @@
 <section name = "Utilization Estimates" level="0">
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
-<column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, 0, 0, 264, -</column>
+<column name="DSP">-, 1, -, -, -</column>
+<column name="Expression">-, -, 0, 496, -</column>
 <column name="FIFO">-, -, -, -, -</column>
 <column name="Instance">-, 3, 49, 177, -</column>
 <column name="Memory">0, -, 192, 15, -</column>
 <column name="Multiplexer">-, -, -, 230, -</column>
-<column name="Register">-, -, 151, -, -</column>
+<column name="Register">-, -, 154, -, -</column>
 <specialColumn name="Available">624, 1728, 460800, 230400, 96</specialColumn>
 <specialColumn name="Utilization (%)">0, ~0, ~0, ~0, 0</specialColumn>
 </table>
@@ -64,11 +64,12 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_convolution_fu_199">convolution, 0, 3, 49, 177</column>
+<column name="grp_convolution_fu_207">convolution, 0, 3, 49, 177</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
 <keys size="3">Instance, Module, Expression</keys>
+<column name="edge_det_ama_addmbkb_U3">edge_det_ama_addmbkb, (i0 + i1) * i2 + i3</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
@@ -84,25 +85,35 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="tmp_9_fu_301_p2">*, 0, 0, 30, 7, 7</column>
-<column name="grp_fu_208_p2">+, 0, 0, 21, 14, 14</column>
-<column name="i_1_fu_225_p2">+, 0, 0, 15, 7, 1</column>
-<column name="j_1_fu_248_p2">+, 0, 0, 15, 7, 1</column>
-<column name="m_1_fu_285_p2">+, 0, 0, 9, 2, 1</column>
-<column name="n_1_fu_335_p2">+, 0, 0, 9, 2, 1</column>
-<column name="next_mul_fu_213_p2">+, 0, 0, 21, 14, 7</column>
-<column name="tmp_10_fu_358_p2">+, 0, 0, 21, 14, 14</column>
-<column name="tmp_12_fu_368_p2">+, 0, 0, 15, 5, 5</column>
-<column name="tmp_8_fu_291_p2">+, 0, 0, 15, 7, 7</column>
-<column name="tmp_s_fu_319_p2">-, 0, 0, 15, 5, 5</column>
+<column name="grp_fu_216_p2">+, 0, 0, 21, 14, 14</column>
+<column name="i_1_fu_233_p2">+, 0, 0, 15, 7, 1</column>
+<column name="j_1_fu_262_p2">+, 0, 0, 15, 7, 1</column>
+<column name="m_1_fu_316_p2">+, 0, 0, 9, 2, 1</column>
+<column name="n_1_fu_357_p2">+, 0, 0, 9, 2, 1</column>
+<column name="next_mul_fu_221_p2">+, 0, 0, 21, 14, 7</column>
+<column name="sob_xy1_d0">+, 0, 0, 39, 32, 32</column>
+<column name="tmp4_fu_363_p2">+, 0, 0, 15, 8, 8</column>
+<column name="tmp_14_fu_373_p2">+, 0, 0, 22, 15, 15</column>
+<column name="tmp_16_fu_383_p2">+, 0, 0, 15, 5, 5</column>
+<column name="neg9_fu_422_p2">-, 0, 0, 39, 1, 32</column>
+<column name="neg_fu_402_p2">-, 0, 0, 39, 1, 32</column>
+<column name="tmp_11_fu_334_p2">-, 0, 0, 15, 5, 5</column>
 <column name="ap_block_state9_on_subcall_done">and, 0, 0, 9, 1, 1</column>
-<column name="exitcond1_fu_279_p2">icmp, 0, 0, 8, 2, 2</column>
-<column name="exitcond2_fu_242_p2">icmp, 0, 0, 11, 7, 6</column>
-<column name="exitcond3_fu_219_p2">icmp, 0, 0, 11, 7, 6</column>
-<column name="exitcond_fu_329_p2">icmp, 0, 0, 8, 2, 2</column>
-<column name="tmp_3_fu_254_p2">icmp, 0, 0, 11, 7, 6</column>
-<column name="tmp_fu_231_p2">icmp, 0, 0, 11, 7, 6</column>
-<column name="or_cond_fu_260_p2">or, 0, 0, 9, 1, 1</column>
+<column name="abscond1_fu_427_p2">icmp, 0, 0, 20, 32, 1</column>
+<column name="abscond_fu_408_p2">icmp, 0, 0, 20, 32, 1</column>
+<column name="exitcond1_fu_310_p2">icmp, 0, 0, 8, 2, 2</column>
+<column name="exitcond2_fu_256_p2">icmp, 0, 0, 11, 7, 6</column>
+<column name="exitcond3_fu_227_p2">icmp, 0, 0, 11, 7, 6</column>
+<column name="exitcond_fu_351_p2">icmp, 0, 0, 8, 2, 2</column>
+<column name="tmp_1_fu_245_p2">icmp, 0, 0, 11, 7, 1</column>
+<column name="tmp_4_fu_268_p2">icmp, 0, 0, 11, 7, 6</column>
+<column name="tmp_5_fu_274_p2">icmp, 0, 0, 11, 7, 1</column>
+<column name="tmp_fu_239_p2">icmp, 0, 0, 11, 7, 6</column>
+<column name="or_cond5_fu_290_p2">or, 0, 0, 9, 1, 1</column>
+<column name="tmp1_fu_280_p2">or, 0, 0, 9, 1, 1</column>
+<column name="tmp2_fu_285_p2">or, 0, 0, 9, 1, 1</column>
+<column name="abs1_fu_432_p3">select, 0, 0, 32, 1, 32</column>
+<column name="abs_fu_414_p3">select, 0, 0, 32, 1, 32</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -110,13 +121,13 @@
 <column name="ap_NS_fsm">47, 10, 1, 10</column>
 <column name="block_address0">15, 3, 4, 12</column>
 <column name="block_ce0">15, 3, 1, 3</column>
-<column name="grp_convolution_fu_199_operatr_q0">15, 3, 32, 96</column>
-<column name="grp_fu_208_p1">15, 3, 14, 42</column>
-<column name="i_reg_142">9, 2, 7, 14</column>
-<column name="j_reg_166">9, 2, 7, 14</column>
-<column name="m_reg_177">9, 2, 2, 4</column>
-<column name="n_reg_188">9, 2, 2, 4</column>
-<column name="phi_mul_reg_154">9, 2, 14, 28</column>
+<column name="grp_convolution_fu_207_operatr_q0">15, 3, 32, 96</column>
+<column name="grp_fu_216_p1">15, 3, 14, 42</column>
+<column name="i_reg_150">9, 2, 7, 14</column>
+<column name="j_reg_174">9, 2, 7, 14</column>
+<column name="m_reg_185">9, 2, 2, 4</column>
+<column name="n_reg_196">9, 2, 2, 4</column>
+<column name="phi_mul_reg_162">9, 2, 14, 28</column>
 <column name="sob_x1_address0">15, 3, 14, 42</column>
 <column name="sob_x1_d0">15, 3, 32, 96</column>
 <column name="sob_x_ce0">9, 2, 1, 2</column>
@@ -128,25 +139,26 @@
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">9, 0, 9, 0</column>
-<column name="ap_reg_grp_convolution_fu_199_ap_start">1, 0, 1, 0</column>
-<column name="i_1_reg_394">7, 0, 7, 0</column>
-<column name="i_reg_142">7, 0, 7, 0</column>
-<column name="j_1_reg_413">7, 0, 7, 0</column>
-<column name="j_cast7_reg_404">7, 0, 14, 7</column>
-<column name="j_reg_166">7, 0, 7, 0</column>
-<column name="m_1_reg_425">2, 0, 2, 0</column>
-<column name="m_reg_177">2, 0, 2, 0</column>
-<column name="n_1_reg_443">2, 0, 2, 0</column>
-<column name="n_reg_188">2, 0, 2, 0</column>
-<column name="next_mul_reg_386">14, 0, 14, 0</column>
-<column name="or_cond_reg_418">1, 0, 1, 0</column>
-<column name="phi_mul_reg_154">14, 0, 14, 0</column>
-<column name="tmp_12_reg_453">5, 0, 5, 0</column>
-<column name="tmp_6_reg_463">14, 0, 14, 0</column>
-<column name="tmp_9_reg_430">12, 0, 14, 2</column>
-<column name="tmp_reg_399">1, 0, 1, 0</column>
-<column name="tmp_s_reg_435">5, 0, 5, 0</column>
-<column name="value_reg_458">32, 0, 32, 0</column>
+<column name="ap_reg_grp_convolution_fu_207_ap_start">1, 0, 1, 0</column>
+<column name="i_1_reg_464">7, 0, 7, 0</column>
+<column name="i_reg_150">7, 0, 7, 0</column>
+<column name="j_1_reg_488">7, 0, 7, 0</column>
+<column name="j_cast_reg_479">7, 0, 14, 7</column>
+<column name="j_reg_174">7, 0, 7, 0</column>
+<column name="m_1_reg_500">2, 0, 2, 0</column>
+<column name="m_reg_185">2, 0, 2, 0</column>
+<column name="n_1_reg_523">2, 0, 2, 0</column>
+<column name="n_reg_196">2, 0, 2, 0</column>
+<column name="next_mul_reg_456">14, 0, 14, 0</column>
+<column name="or_cond5_reg_493">1, 0, 1, 0</column>
+<column name="phi_mul_reg_162">14, 0, 14, 0</column>
+<column name="tmp3_cast_reg_510">14, 0, 15, 1</column>
+<column name="tmp_11_reg_505">5, 0, 5, 0</column>
+<column name="tmp_16_reg_533">5, 0, 5, 0</column>
+<column name="tmp_1_reg_474">1, 0, 1, 0</column>
+<column name="tmp_8_reg_515">14, 0, 14, 0</column>
+<column name="tmp_reg_469">1, 0, 1, 0</column>
+<column name="value_reg_538">32, 0, 32, 0</column>
 </table>
 </item>
 </section>
@@ -173,19 +185,23 @@
 <column name="sob_y1_ce0">out, 1, ap_memory, sob_y1, array</column>
 <column name="sob_y1_we0">out, 1, ap_memory, sob_y1, array</column>
 <column name="sob_y1_d0">out, 32, ap_memory, sob_y1, array</column>
+<column name="sob_xy1_address0">out, 14, ap_memory, sob_xy1, array</column>
+<column name="sob_xy1_ce0">out, 1, ap_memory, sob_xy1, array</column>
+<column name="sob_xy1_we0">out, 1, ap_memory, sob_xy1, array</column>
+<column name="sob_xy1_d0">out, 32, ap_memory, sob_xy1, array</column>
 </table>
 </item>
 </section>
 
 <section name = "Critical Path" level="0">
-<item name = "Max Delay">2.42</item>
+<item name = "Max Delay">3.27</item>
 <item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
 <keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
-<column name="'m'">phi, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, &apos;m&apos;, edge_prj/main.c:28</column>
-<column name="'m_cast6', edge_prj/main.c:28">zext, 0.00, 0.00, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_8', edge_prj/main.c:33">add, 0.77, 0.77, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_8_cast_cast', edge_prj/main.c:33">zext, 0.00, 0.77, -, -, -, -, -, -, -, -, -, -, -</column>
-<column name="'tmp_9', edge_prj/main.c:33">mul, 1.65, 2.42, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'value', edge_prj/main.c:34">call, 0.00, 0.00, -, -, -, -, -, -, -, -, -, convolution, -</column>
+<column name="'neg', edge_prj/main.c:34">sub, 1.02, 1.02, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'abs', edge_prj/main.c:34">select, 0.00, 1.02, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="'tmp_s', edge_prj/main.c:36">add, 1.02, 2.03, -, -, -, -, -, -, -, -, -, -, -</column>
+<column name="edge_prj/main.c:36">store, 1.24, 3.27, &apos;tmp_s&apos;, edge_prj/main.c:36, -, -, -, -, -, &apos;sob_xy1&apos;, -, -, -, -</column>
 </table>
 </item>
 </section>

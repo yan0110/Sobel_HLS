@@ -156,11 +156,11 @@ void edge_det(signed int *, signed int *, signed int *, signed int *);
 static  char aesl_internal__OC_str[35] = "F:\\0yan\\fpga\\HLS\\edge_prj\\gray.txt";
 static  char aesl_internal__OC_str1[2] = "r";
 static  char aesl_internal__OC_str2[4] = "%x,";
-static  char aesl_internal__OC_str3[16] = "sobel_x1out.txt";
+static  char aesl_internal__OC_str3[52] = "F:\\0yan\\fpga\\HLS\\Sobel_HLS\\edge_prj\\sobel_x1out.txt";
 static  char aesl_internal__OC_str4[2] = "w";
 static  char aesl_internal__OC_str5[4] = "%d,";
-static  char aesl_internal__OC_str6[16] = "sobel_y1out.txt";
-static  char aesl_internal__OC_str7[17] = "sobel_xy1out.txt";
+static  char aesl_internal__OC_str6[52] = "F:\\0yan\\fpga\\HLS\\Sobel_HLS\\edge_prj\\sobel_y1out.txt";
+static  char aesl_internal__OC_str7[53] = "F:\\0yan\\fpga\\HLS\\Sobel_HLS\\edge_prj\\sobel_xy1out.txt";
 
 
 /* Function Bodies */
@@ -566,10 +566,10 @@ printf("\n  call void @edge_det(i32* %%10, i32* %%11, i32* %%12, i32* %%13) noun
 if (AESL_DEBUG_TRACE) {
 }
 if (AESL_DEBUG_TRACE)
-printf("\n  %%14 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([16 x i8]* @aesl_internal_.str3, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str4, i64 0, i64 0)) nounwind, !dbg !8 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_62_count);
+printf("\n  %%14 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([52 x i8]* @aesl_internal_.str3, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str4, i64 0, i64 0)) nounwind, !dbg !8 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_62_count);
   llvm_cbe_tmp__12 = (l_struct_OC__iobuf *)aesl_fopen(( char *)((&aesl_internal__OC_str3[(((signed long long )0ull))
 #ifdef AESL_BC_SIM
- % 16
+ % 52
 #endif
 ])), ( char *)((&aesl_internal__OC_str4[(((signed long long )0ull))
 #ifdef AESL_BC_SIM
@@ -649,10 +649,10 @@ if (AESL_DEBUG_TRACE) {
 printf("\nReturn  = 0x%X",llvm_cbe_tmp__18);
 }
 if (AESL_DEBUG_TRACE)
-printf("\n  %%23 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([16 x i8]* @aesl_internal_.str6, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str4, i64 0, i64 0)) nounwind, !dbg !8 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_106_count);
+printf("\n  %%23 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([52 x i8]* @aesl_internal_.str6, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str4, i64 0, i64 0)) nounwind, !dbg !8 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_106_count);
   llvm_cbe_tmp__19 = (l_struct_OC__iobuf *)aesl_fopen(( char *)((&aesl_internal__OC_str6[(((signed long long )0ull))
 #ifdef AESL_BC_SIM
- % 16
+ % 52
 #endif
 ])), ( char *)((&aesl_internal__OC_str4[(((signed long long )0ull))
 #ifdef AESL_BC_SIM
@@ -732,10 +732,10 @@ if (AESL_DEBUG_TRACE) {
 printf("\nReturn  = 0x%X",llvm_cbe_tmp__25);
 }
 if (AESL_DEBUG_TRACE)
-printf("\n  %%32 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([17 x i8]* @aesl_internal_.str7, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str4, i64 0, i64 0)) nounwind, !dbg !8 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_150_count);
+printf("\n  %%32 = call %%struct._iobuf* @fopen(i8* getelementptr inbounds ([53 x i8]* @aesl_internal_.str7, i64 0, i64 0), i8* getelementptr inbounds ([2 x i8]* @aesl_internal_.str4, i64 0, i64 0)) nounwind, !dbg !8 for 0x%I64xth hint within @main  --> \n", ++aesl_llvm_cbe_150_count);
   llvm_cbe_tmp__26 = (l_struct_OC__iobuf *)aesl_fopen(( char *)((&aesl_internal__OC_str7[(((signed long long )0ull))
 #ifdef AESL_BC_SIM
- % 17
+ % 53
 #endif
 ])), ( char *)((&aesl_internal__OC_str4[(((signed long long )0ull))
 #ifdef AESL_BC_SIM

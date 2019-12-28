@@ -14,7 +14,7 @@ set FftOrFirFlag 0
 set NbRWValue 0
 set intNbAccess 0
 set NewDSPMapping 1
-set HasDSPModule 0
+set HasDSPModule 1
 set ResetLevelFlag 1
 set ResetStyle "control"
 set ResetSyncFlag 1
@@ -43,7 +43,7 @@ set SCTraceOption "all"
 set TargetInfo "xczu7ev:-ffvc1156:-2-i"
 set SourceFiles {sc {} c ../main.c}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile {F:/0yan/fpga/HLS/edge_prj/solution1/solution1.directive}
+set DirectiveFile {F:/0yan/fpga/HLS/Sobel_HLS/edge_prj/solution1/solution1.directive}
 set TBFiles {verilog {../test.c ../in.txt ../gray.txt} bc {../test.c ../in.txt ../gray.txt} vhdl {../test.c ../in.txt ../gray.txt} sc {../test.c ../in.txt ../gray.txt} cas {../test.c ../in.txt ../gray.txt} c {}}
 set SpecLanguage "C"
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

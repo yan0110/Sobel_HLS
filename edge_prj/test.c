@@ -23,7 +23,7 @@ void  main()
       edge_det(a,sob_x1out,sob_y1out,sob_xy1out);
 
       //½«sob_x1out[N],sob_y1out[N]¶ÁÈësobel_x1out.txt£¬sobel_y1out.txt
-      fp=fopen("sobel_x1out.txt","w");
+      fp=fopen("F:\\0yan\\fpga\\HLS\\Sobel_HLS\\edge_prj\\sobel_x1out.txt","w");
          for(i=0;i<N;i++)
          {
         	 fprintf(fp,"%d,",sob_x1out[i]);
@@ -31,7 +31,7 @@ void  main()
       fclose(fp);
 
 
-      fp=fopen("sobel_y1out.txt","w");
+      fp=fopen("F:\\0yan\\fpga\\HLS\\Sobel_HLS\\edge_prj\\sobel_y1out.txt","w");
 
               for(i=0;i<N;i++)
               {
@@ -40,7 +40,7 @@ void  main()
        fclose(fp);
 
 
-       fp=fopen("sobel_xy1out.txt","w");
+       fp=fopen("F:\\0yan\\fpga\\HLS\\Sobel_HLS\\edge_prj\\sobel_xy1out.txt","w");
                     for(i=0;i<N;i++)
                     {
                    	 fprintf(fp,"%d,",sob_xy1out[i]);

@@ -135,7 +135,7 @@
 
 
 
-void edge_det(int video[100*100],int sob_x1[100*100],int sob_y1[100*100]);
+void edge_det(int video[100*100],int sob_x1[100*100],int sob_y1[100*100],int sob_xy1[100*100]);
 
 int convolution(int operatr[9],int block[9]);
 #2 "edge_prj/main.c" 2
@@ -4958,8 +4958,8 @@ typedef unsigned int __attribute__ ((bitwidth(64))) uint64;
 #78 "E:/vivado174/Vivado/2017.4/common/technology/autopilot\\ap_cint.h" 2
 #3 "edge_prj/main.c" 2
 
-void edge_det(int video[100*100],int sob_x1[100*100],int sob_y1[100*100])
-{_ssdm_SpecArrayDimSize(sob_x1,100*100);_ssdm_SpecArrayDimSize(sob_y1,100*100);_ssdm_SpecArrayDimSize(video,100*100);
+void edge_det(int video[100*100],int sob_x1[100*100],int sob_y1[100*100],int sob_xy1[100*100])
+{_ssdm_SpecArrayDimSize(sob_x1,100*100);_ssdm_SpecArrayDimSize(sob_y1,100*100);_ssdm_SpecArrayDimSize(video,100*100);_ssdm_SpecArrayDimSize(sob_xy1,100*100);
 
  int sob_x[9] = {-1,0,1,-2,0,2,-1,0,1};
     int sob_y[9] = {-1,-2,-1,0,0,0,1,2,1};
@@ -4974,7 +4974,7 @@ edge_det_label1:for(i=0;i<100;i++)
 
 edge_det_label2:for(j=0;j<100;j++)
     {
-      if(i>100 -3 || j>100 -3)
+      if(i == 100 -1 || j == 100 -1 || i== 1 || j== 1)
    {
            sob_x1[i*100 +j]=0;
      sob_y1[i*100 +j]=0;
@@ -4983,16 +4983,14 @@ edge_det_label2:for(j=0;j<100;j++)
    {
 
 edge_det_label3:for(m=0;m<3;m++)
-
-
 edge_det_label4:for(n=0;n<3;n++)
-
-      block[m*3+n]=video[(i+m)*100 +j+n];
+    block[m*3+n]=video[(i+m-1)*100 +j+n-1];
      value=convolution(sob_x,block);
      sob_x1[i*100 +j]=value;
 
      value=convolution(sob_y,block);
      sob_y1[i*100 +j]=value;
+     sob_xy1[i*100 +j] = abs(sob_y1[i*100 +j]) + abs(sob_x1[i*100 +j]);
    }
     }
 

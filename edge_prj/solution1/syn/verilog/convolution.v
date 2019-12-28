@@ -63,7 +63,7 @@ wire   [0:0] exitcond_fu_128_p2;
 reg   [1:0] i_reg_60;
 reg   [1:0] j_reg_71;
 wire    ap_CS_fsm_state4;
-wire   [63:0] tmp_14_fu_149_p1;
+wire   [63:0] tmp_18_fu_149_p1;
 reg   [31:0] value_fu_32;
 wire   [31:0] value_2_fu_161_p2;
 wire   [3:0] p_shl_fu_106_p3;
@@ -72,9 +72,9 @@ wire   [4:0] i_cast3_fu_90_p1;
 wire   [4:0] j_cast1_fu_124_p1;
 wire   [4:0] tmp_s_fu_140_p2;
 wire  signed [31:0] tmp_cast_fu_145_p1;
-wire  signed [31:0] tmp_15_fu_155_p0;
-wire  signed [31:0] tmp_15_fu_155_p1;
-wire   [31:0] tmp_15_fu_155_p2;
+wire  signed [31:0] tmp_19_fu_155_p0;
+wire  signed [31:0] tmp_19_fu_155_p1;
+wire   [31:0] tmp_19_fu_155_p2;
 reg   [3:0] ap_NS_fsm;
 
 // power-on initialization
@@ -214,7 +214,7 @@ assign ap_CS_fsm_state4 = ap_CS_fsm[32'd3];
 
 assign ap_return = value_fu_32;
 
-assign block_r_address0 = tmp_14_fu_149_p1;
+assign block_r_address0 = tmp_18_fu_149_p1;
 
 assign exitcond1_fu_94_p2 = ((i_reg_60 == 2'd3) ? 1'b1 : 1'b0);
 
@@ -228,19 +228,19 @@ assign j_2_fu_134_p2 = (j_reg_71 + 2'd1);
 
 assign j_cast1_fu_124_p1 = j_reg_71;
 
-assign operatr_address0 = tmp_14_fu_149_p1;
+assign operatr_address0 = tmp_18_fu_149_p1;
 
 assign p_shl_cast_fu_114_p1 = p_shl_fu_106_p3;
 
 assign p_shl_fu_106_p3 = {{i_reg_60}, {2'd0}};
 
-assign tmp_14_fu_149_p1 = $unsigned(tmp_cast_fu_145_p1);
+assign tmp_18_fu_149_p1 = $unsigned(tmp_cast_fu_145_p1);
 
-assign tmp_15_fu_155_p0 = operatr_q0;
+assign tmp_19_fu_155_p0 = operatr_q0;
 
-assign tmp_15_fu_155_p1 = block_r_q0;
+assign tmp_19_fu_155_p1 = block_r_q0;
 
-assign tmp_15_fu_155_p2 = ($signed(tmp_15_fu_155_p0) * $signed(tmp_15_fu_155_p1));
+assign tmp_19_fu_155_p2 = ($signed(tmp_19_fu_155_p0) * $signed(tmp_19_fu_155_p1));
 
 assign tmp_cast_fu_145_p1 = $signed(tmp_s_fu_140_p2);
 
@@ -248,6 +248,6 @@ assign tmp_fu_118_p2 = (p_shl_cast_fu_114_p1 - i_cast3_fu_90_p1);
 
 assign tmp_s_fu_140_p2 = (tmp_reg_187 + j_cast1_fu_124_p1);
 
-assign value_2_fu_161_p2 = (tmp_15_fu_155_p2 + value_fu_32);
+assign value_2_fu_161_p2 = (tmp_19_fu_155_p2 + value_fu_32);
 
 endmodule //convolution
